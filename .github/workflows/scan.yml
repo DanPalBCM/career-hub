@@ -1,0 +1,100 @@
+# Secret and PHI scanning. Fails closed: any hit blocks the merge.
+# Pinned tool versions — TODO(human): verify and bump if needed.
+#   actions/checkout ........... v4
+#   actions/setup-python ....... v5
+#   gitleaks/gitleaks-action ... v2
+#   Python ..................... 3.12
+
+name: scan
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  gitleaks:
+    name: gitleaks (secrets)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out (full history)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Run gitleaks
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # gitleaks-action is free for public repositories. If this repo ever
+          # becomes private under an organization, a GITLEAKS_LICENSE secret is
+          # required — see the action's README.
+
+  phi-patterns:
+    name: PHI pattern check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Scan tracked files for PHI-shaped content
+        run: |
+          python - <<'PY'
+          import re
+          import subprocess
+          import sys
+          from pathlib import Path
+
+          # This workflow file is skipped: it necessarily contains the patterns.
+          SKIP_FILES = {".github/workflows/scan.yml"}
+          SKIP_SUFFIXES = {".pdf", ".png", ".jpg", ".jpeg", ".gif", ".ico", ".woff", ".woff2"}
+
+          PATTERNS = [
+              ("SSN-shaped number",        re.compile(r"\b\d{3}-\d{2}-\d{4}\b")),
+              ("password assignment",      re.compile(r"password\s*[:=]", re.IGNORECASE)),
+              ("medical record number",    re.compile(r"\bmrn\b|\bmedical[_\s-]?record[_\s-]?number\b", re.IGNORECASE)),
+              ("private key block",        re.compile(r"BEGIN\s+[A-Z ]*PRIVATE KEY")),
+          ]
+
+          tracked = subprocess.run(
+              ["git", "ls-files"], capture_output=True, text=True, check=True
+          ).stdout.splitlines()
+
+          hits = []
+          for name in tracked:
+              path = Path(name)
+              if name in SKIP_FILES or path.suffix.lower() in SKIP_SUFFIXES:
+                  continue
+              try:
+                  text = path.read_text(encoding="utf-8")
+              except (UnicodeDecodeError, FileNotFoundError, IsADirectoryError):
+                  continue
+              for lineno, line in enumerate(text.splitlines(), start=1):
+                  if any(pattern.search(line) for _, pattern in PATTERNS):
+                      label = next(lbl for lbl, pat in PATTERNS if pat.search(line))
+                      hits.append((name, lineno, label, line.strip()[:160]))
+
+          if hits:
+              print("PHI / credential pattern check FAILED. Hits:\n")
+              for name, lineno, label, snippet in hits:
+                  print(f"  {name}:{lineno}  [{label}]")
+                  print(f"      {snippet}")
+              print(
+                  "\nRemove the offending content, rewrite history if it was ever "
+                  "committed, and rotate anything that was a real credential.\n"
+                  "If a hit is a false positive, narrow the pattern in "
+                  ".github/workflows/scan.yml in the same PR and say why."
+              )
+              sys.exit(1)
+
+          print(f"PHI / credential pattern check passed across {len(tracked)} tracked files.")
+          PY

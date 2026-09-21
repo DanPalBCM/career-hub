@@ -1,0 +1,47 @@
+---
+title: "Publications"
+bibliography: ../publications.bib
+nocite: |
+  @*
+---
+
+Every entry below is generated from
+[publications.bib](https://github.com/DanPalBCM/career-hub/blob/main/publications.bib),
+the canonical record. Full references, with DOIs, are listed at the bottom of
+this page.
+
+Manuscripts under review without a public preprint are listed as metadata
+only — title, authors, venue, status.
+
+## Published
+
+@hosur2023prb
+
+@palacios2026scirep
+
+@goulding2026pregnancy
+
+## Under review
+
+@ahn2026medsdoh
+
+@palacios2026clinpreai
+
+@palacios2026phi
+
+@palacios-trofinetide — no public preprint; metadata only.
+
+## Preprints
+
+@neeley2026teddy
+
+## Full reference list
+
+::: {#refs}
+:::
+
+<!-- TODO(human): if you want three separate, fully formatted reference lists
+rather than one combined list, add the pandoc `multibib` Lua filter to the
+project and give each section its own `refs-*` div. Pandoc supports only one
+`#refs` div natively, which is why the sections above use citation links into
+a single list. -->

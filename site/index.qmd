@@ -1,0 +1,45 @@
+---
+title: "Daniel Palacios"
+subtitle: "Ph.D. candidate, Quantitative and Computational Biosciences"
+---
+
+<!-- TODO(human): add a headshot at assets/img/headshot.jpg, then uncomment: ![](assets/img/headshot.jpg){.headshot width=200} -->
+
+## Current positions
+
+Graduate Student Researcher, Liu Lab — Data Science Center, Duncan
+Neurological Research Institute, Texas Children's Hospital / Baylor College
+of Medicine (2022–present). Advisor: Dr. Zhandong Liu.
+
+AI Developer and Research Design Intern, Peraton — Cyber Operations,
+Cyber and Intelligence Sector (2026–present, remote).
+
+## About
+
+Daniel Palacios is a Ph.D. candidate in Quantitative and Computational
+Biosciences at Baylor College of Medicine (2022–2027) and an NSF Graduate
+Research Fellow. He works in the Liu Lab at Texas Children's Hospital's Duncan
+Neurological Research Institute, where he applies AI and machine learning —
+LLM-powered agentic systems, multi-agent architectures, and EHR foundation
+models — to clinical informatics and computational biology. His projects span
+postpartum mental-health prediction, pediatric diabetes outcomes,
+treatment-response phenotyping, clinical-note de-identification, and pediatric
+disease-trajectory modeling. He was previously a Research Associate at NASA
+Ames Research Center (space radiation biology) and a Machine Learning
+Researcher Intern at NASA Johnson Space Center (NLP for engineering failure
+reports), and did undergraduate research in theoretical superconductivity at
+the University of Houston, where he earned a B.S. in Physics and Mathematics in
+2022. His work has appeared in Physical Review B, Scientific Reports, and
+Pregnancy, with manuscripts under review at JAMIA and PLOS Digital Health and
+a preprint on arXiv.
+
+## Links
+
+- CV (PDF): [cv-latest.pdf](assets/cv/cv-latest.pdf)
+- GitHub: [DanPalBCM](https://github.com/DanPalBCM)
+- LinkedIn: TODO(human): LinkedIn profile URL
+- ORCID: TODO(human): ORCID iD URL
+- Google Scholar: TODO(human): Google Scholar profile URL
+- Email: Daniel.Palacios@bcm.edu
+
+Houston, Texas.

@@ -1,0 +1,149 @@
+---
+title: "Career"
+---
+
+A condensed timeline. The CV PDF has the full detail.
+
+## Education
+
+Ph.D., Quantitative and Computational Biosciences — Baylor College of
+Medicine, 2022–2027.
+NSF Graduate Research Fellow (2024); NLM Fellow (2023); Dean's Award of
+Excellence (2024).
+
+B.S., Physics and Mathematics (double major) — University of Houston,
+2018–2022.
+GPA 3.95/4.00, magna cum laude; Dean's Distinguished Scholar (2018–2022).
+
+## Experience
+
+### AI Developer and Research Design Intern — Peraton {#peraton}
+
+Reston, VA (Remote) · Aug 2026 – present
+
+Cyber Operations, Cyber and Intelligence Sector; mentor Ebenezer Dadson.
+Building software powered by large language models and multi-agent systems, and
+designing evaluation protocols and controlled experiments measuring how design
+parameters and system factors affect performance and reliability.
+
+### Graduate Student Researcher — Baylor College of Medicine {#bcm}
+
+Houston, TX · 2022 – present
+
+Liu Lab, Data Science Center, Duncan Neurological Research Institute, Texas
+Children's Hospital; advisor Dr. Zhandong Liu.
+
+- ClinPreAI — agentic AI system (research, planning, coding, debugging, and
+  interpretation modules) for early postpartum depression risk prediction
+  (EPDS ≥ 10, 31% prevalence) from a single antepartum hospitalization; 4,161
+  patients, 27 structured variables plus social worker notes; F1 0.68
+  structured / 0.65 multimodal, matching a custom LLM-XGBoost pipeline.
+- Pediatric diabetes (T1D/T2D) — PySpark pipeline on Palantir Foundry built
+  from OMOP CDM and Epic Clarity EHR data; T2D n = 2,489, T1D n = 4,018; seven
+  binary outcomes at 2- and 5-year horizons; multi-agent LLM clinical-reasoning
+  architectures compared against eight classical ML and deep-learning
+  baselines.
+- Trofinetide / Rett syndrome — dual-LLM consensus pipeline extracting 18
+  treatment-response phenotypes from 26,763 notes (108 patients); 84.2%
+  accuracy and F1 0.674 on the expert-annotated development set.
+- Clinical-note de-identification — benchmarked eight LLMs against Stanford
+  TiDE, OpenMed PII, and pattern baselines on 100 expert-annotated pediatric
+  oncology notes (5,322 PHI spans); best single-pass F1 0.918 ± 0.001;
+  introduced "institutionally-situated PHI"; used LLM outputs to surface 414
+  candidate gold-standard annotation gaps.
+- TEDDY — contributed to a 1.84M-parameter generative pediatric EHR
+  foundation model trained on ~1.6M children and ~73M ICD-10 codes; median
+  first-occurrence AUC 0.72 across 797 disease-onset tasks.
+
+### Research Associate — NASA Ames Research Center {#nasa-ames}
+
+Mountain View, CA · May – Aug 2022 (collaboration continued remotely through
+Aug 2026)
+
+Space Biosciences Division; mentor Dr. Jessica Lee. Developed the AMMPER model
+simulating cell damage under space radiation, validated against BioSentinel
+mission data; added gamma radiation and alamarBlue metabolic-dye dynamics
+(Michaelis-Menten kinetics) and a 3D free-radical diffusion model; mentored two
+undergraduates who carried the project forward; four presentations.
+
+### Machine Learning Researcher Intern — NASA Johnson Space Center {#nasa-jsc}
+
+Houston, TX · 2021 – 2022
+
+Mentor Terry Hill. Built an NLP pipeline over historical engineering failure
+reports and an LDA-BERT taxonomy for space-hardware failure reporting;
+delivered Power BI dashboards and interactive knowledge graphs (INDRA-EIDOS,
+spaCy, Bokeh-networkx); identified 5–15 critical engineering processes; eight
+presentations.
+
+### Undergraduate Researcher — University of Houston {#uh}
+
+Houston, TX · 2020 – 2021
+
+Advisor Dr. Pavan Hosur. Theoretical work on asymmetric superconductivity under
+broken symmetries; modeled asymmetric supercurrents in non-centrosymmetric
+superconductors; one conference presentation; one Physical Review B
+publication.
+
+## Teaching and leadership
+
+- Teaching Assistant, Baylor College of Medicine, 2023–2025 — QCMB 1
+  (2023–2024), QCMB 2 (2025).
+- Graduate Student Council Representative, QCB Program, 2024–present —
+  Chair, International Student Committee; Career Development Committee;
+  Newsletter.
+- Research mentor, 2022–2025 — seven trainees: two NASA Ames interns, one
+  PREP, one SMS, three ASPIRE.
+
+## Service
+
+Keck Seminar Committee (2024); Lathisms Committee (2024);
+scribe, Lunar Biology Technology Workshop, NASA (2022); SACNAS Officer,
+University of Houston (2021).
+
+## Grants
+
+BCM Seed Grant (PI: Alison Goulding) — awarded.
+dkNET NIDDK Grant (PI: Dr. Tosur) — awarded.
+
+## Selected presentations
+
+- Goulding, A. N., Daniel Palacios, et al. "Factors associated with
+  postpartum depression symptoms following antepartum hospitalization." Texas
+  Children's Research Symposium. Poster. 2026.
+- Daniel Palacios, et al. "AI-Assisted Construction of Comprehensive
+  Pediatric Type 1 and Type 2 Diabetes Cohorts…" TMC AI Summit. Poster. 2026.
+- Daniel Palacios, et al. "ClinPreAI: An Agentic AI System for Early
+  Postpartum Depression Risk Prediction…" TMC AI Summit. Poster. 2026.
+- Invited: NASA Ames Space Biosciences Research Branch (Aug 2022); NASA Johnson
+  Space Center Engineering Directorate (May 2022); NASA Langley ML/AI Community
+  Group (Jul 2021).
+
+## Awards and honors
+
+| Year | Award |
+|------|-------|
+| 2025 | GSBS Outstanding TA in Quantitative and Computational Biosciences, BCM |
+| 2024 | Dean's Award of Excellence, BCM |
+| 2024 | NSF Graduate Research Fellowship |
+| 2023 | NLM Fellowship |
+| 2023 | Lathisms Scholarship |
+| 2023 | ASM Future Leaders Mentoring Fellowship |
+| 2022 | ADDSTEAM Scholarship |
+| 2022 | IMSD NIH-NIGMS Grant |
+| 2022 | Magna Cum Laude, University of Houston |
+| 2021 | Charles P. Benner Scholarship |
+| 2021 | Provost's Undergraduate Research Scholarship, University of Houston |
+| 2021 | British American Foundation of Texas Scholarship |
+| 2020 | Summer Undergraduate Research Fellowship, University of Houston |
+| 2018–2022 | Dean's Distinguished Scholar, University of Houston |
+| 2018–2022 | Academic Excellence Scholarship, University of Houston |
+
+## Certifications and training
+
+- Graduate Tools and Models in Data Science — Rice University.
+- Machine Learning Certificate — Hewlett Packard Enterprise Data Science
+  Institute.
+- Big Data Technology Fundamentals — Amazon Web Services / NASA.
+- Data Analysis Concepts — Percipio / NASA.
+- ETS Major Field Test in Mathematics: 198/200.

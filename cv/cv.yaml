@@ -1,0 +1,370 @@
+# cv/cv.yaml — CV CONTENT ONLY.
+# Presentation (theme, page size, margins, colors) lives in
+# cv/rendercv_settings.yaml and is passed to RenderCV with --design.
+# The publications section MIRRORS publications.bib. publications.bib is
+# canonical: if a publication changes there, change it here in the same commit.
+# TODO(human): confirm this file validates against the RenderCV version pinned
+# in .github/workflows/build.yml (rendercv --version; schema changes between
+# major releases).
+
+cv:
+  name: Daniel Palacios
+  location: Houston, Texas
+  email: Daniel.Palacios@bcm.edu
+  phone: tel:+1-832-941-7893
+  website: https://danpalbcm.github.io/career-hub/
+  social_networks:
+    - network: GitHub
+      username: DanPalBCM
+    # TODO(human): LinkedIn username (the slug after /in/)
+    # - network: LinkedIn
+    #   username: TODO
+    # TODO(human): ORCID iD (the 0000-0000-0000-0000 identifier)
+    # - network: ORCID
+    #   username: TODO
+    # TODO(human): Google Scholar profile ID
+    # - network: GoogleScholar
+    #   username: TODO
+
+  sections:
+
+    summary:
+      - >-
+        Ph.D. candidate in Quantitative and Computational Biosciences and NSF
+        Graduate Research Fellow applying AI and machine learning — LLM-powered
+        agentic systems, multi-agent architectures, and EHR foundation models —
+        to clinical informatics and computational biology. Prior research in
+        space radiation biology and NLP at NASA, and in theoretical
+        superconductivity.
+
+    education:
+      - institution: Baylor College of Medicine
+        area: Quantitative and Computational Biosciences
+        degree: PhD
+        location: Houston, TX
+        start_date: 2022
+        end_date: 2027
+        highlights:
+          - "NSF Graduate Research Fellow (2024)"
+          - "NLM Fellow (2023)"
+          - "Dean's Award of Excellence (2024)"
+      - institution: University of Houston
+        area: Physics and Mathematics (double major)
+        degree: BS
+        location: Houston, TX
+        start_date: 2018
+        end_date: 2022
+        highlights:
+          - "GPA 3.95/4.00, magna cum laude"
+          - "Dean's Distinguished Scholar (2018-2022)"
+
+    experience:
+      - company: Peraton
+        position: AI Developer and Research Design Intern
+        location: Reston, VA (Remote)
+        start_date: 2026-08
+        highlights:
+          - "Cyber Operations, Cyber and Intelligence Sector; mentor Ebenezer Dadson."
+          - "Building software powered by large language models and multi-agent systems."
+          - >-
+            Designing evaluation protocols and controlled experiments measuring
+            how design parameters and system factors affect performance and
+            reliability.
+
+      - company: Baylor College of Medicine
+        position: Graduate Student Researcher
+        location: Houston, TX
+        start_date: 2022
+        highlights:
+          - >-
+            Liu Lab, Data Science Center, Duncan Neurological Research Institute,
+            Texas Children's Hospital; advisor Dr. Zhandong Liu.
+          - >-
+            ClinPreAI: agentic AI system (research, planning, coding, debugging,
+            and interpretation modules) for early postpartum depression risk
+            prediction (EPDS >= 10, 31% prevalence) from a single antepartum
+            hospitalization; 4,161 patients, 27 structured variables plus social
+            worker notes; F1 0.68 structured / 0.65 multimodal, matching a custom
+            LLM-XGBoost pipeline.
+          - >-
+            Pediatric diabetes (T1D/T2D): PySpark pipeline on Palantir Foundry
+            built from OMOP CDM and Epic Clarity EHR data; T2D n=2,489,
+            T1D n=4,018; 7 binary outcomes at 2- and 5-year horizons;
+            multi-agent LLM clinical-reasoning architectures compared against
+            8 classical machine-learning and deep-learning baselines.
+          - >-
+            Trofinetide / Rett syndrome: dual-LLM consensus pipeline extracting
+            18 treatment-response phenotypes from 26,763 notes (108 patients);
+            84.2% accuracy and F1 0.674 on the expert-annotated development set.
+          - >-
+            Clinical-note de-identification: benchmarked 8 LLMs against Stanford
+            TiDE, OpenMed PII, and pattern baselines on 100 expert-annotated
+            pediatric oncology notes (5,322 PHI spans); best single-pass
+            F1 0.918 +/- 0.001; introduced "institutionally-situated PHI"; used
+            LLM outputs to surface 414 candidate gold-standard annotation gaps.
+          - >-
+            TEDDY: contributed to a 1.84M-parameter generative pediatric EHR
+            foundation model trained on approximately 1.6M children and 73M
+            ICD-10 codes; median first-occurrence AUC 0.72 across 797
+            disease-onset tasks.
+
+      - company: NASA Ames Research Center
+        position: Research Associate
+        location: Mountain View, CA
+        start_date: 2022-05
+        end_date: 2022-08
+        highlights:
+          - "Space Biosciences Division; mentor Dr. Jessica Lee. Collaboration continued remotely through August 2026."
+          - >-
+            Developed the AMMPER model simulating cell damage under space
+            radiation, validated against BioSentinel mission data.
+          - >-
+            Added gamma radiation and alamarBlue metabolic-dye dynamics
+            (Michaelis-Menten kinetics) and a 3D free-radical diffusion model.
+          - "Mentored two undergraduates who carried the project forward; 4 presentations."
+
+      - company: NASA Johnson Space Center
+        position: Machine Learning Researcher Intern
+        location: Houston, TX
+        start_date: 2021
+        end_date: 2022
+        highlights:
+          - "Mentor Terry Hill."
+          - >-
+            Built an NLP pipeline over historical engineering failure reports and
+            an LDA-BERT taxonomy for space-hardware failure reporting.
+          - >-
+            Delivered Power BI dashboards and interactive knowledge graphs
+            (INDRA-EIDOS, spaCy, Bokeh-networkx).
+          - "Identified 5-15 critical engineering processes; 8 presentations."
+
+      - company: University of Houston
+        position: Undergraduate Researcher
+        location: Houston, TX
+        start_date: 2020
+        end_date: 2021
+        highlights:
+          - "Advisor Dr. Pavan Hosur."
+          - >-
+            Theoretical work on asymmetric superconductivity under broken
+            symmetries; modeled asymmetric supercurrents in non-centrosymmetric
+            superconductors.
+          - "1 conference presentation; 1 Physical Review B publication."
+
+    # MIRRORS publications.bib — keep the two in sync in the same commit.
+    publications:
+      # -- published --
+      - title: >-
+          Proximity-induced equilibrium supercurrent and perfect superconducting
+          diode effect due to band asymmetry
+        authors:
+          - Pavan Hosur
+          - "***Daniel Palacios***"
+        journal: Physical Review B
+        doi: 10.1103/PhysRevB.108.094513
+        date: 2023
+
+      - title: >-
+          Taxonomical modeling and classification in space hardware failure
+          reporting
+        authors:
+          - "***Daniel Palacios***"
+          - T. R. Hill
+        journal: Scientific Reports
+        doi: 10.1038/s41598-026-36813-7
+        date: 2026
+
+      - title: >-
+          Factors associated with postpartum depression symptoms following
+          antepartum hospitalization
+        authors:
+          - A. N. Goulding
+          - "***Daniel Palacios***"
+          - et al.
+        journal: "Pregnancy, 2, e70319"
+        doi: 10.1002/pmf2.70319
+        date: 2026
+
+      # -- under review --
+      - title: >-
+          MedSDoH: A Rule-Based System for Social Determinants of Health
+          Extraction from Multi-site EHRs based on the OHNLP Framework
+        authors:
+          - J. Ahn
+          - S. Fu
+          - "***Daniel Palacios***"
+          - et al.
+        journal: "Journal of the American Medical Informatics Association (under review)"
+        doi: 10.64898/2026.04.27.26351699
+        date: 2026
+
+      - title: >-
+          ClinPreAI: An Agentic AI System for Early Postpartum Depression Risk
+          Prediction from Multimodal EHR Data
+        authors:
+          - "***Daniel Palacios***"
+          - et al.
+        journal: "PLOS Digital Health (under review)"
+        doi: 10.1101/2025.11.14.25340265
+        date: 2026
+
+      - title: >-
+          Institution-Specific LLM Prompting Recovers PHI That De-identification
+          Systems and Their Gold Standards Both Miss
+        authors:
+          - "***Daniel Palacios***"
+          - et al.
+        journal: "Journal of the American Medical Informatics Association (under review)"
+        doi: 10.48550/arXiv.2608.17051
+        date: 2026
+
+      - title: >-
+          Documenting Trofinetide Treatment Phenotypes in Rett Syndrome with a
+          Dual-LLM Consensus Pipeline
+        authors:
+          - "***Daniel Palacios***"
+          - et al.
+        journal: "Journal of the American Medical Informatics Association (under review; no public preprint)"
+        # TODO(human): add `date` once a submission year is confirmed, and `doi`
+        # once a preprint posts. Metadata only until then.
+
+      # -- preprint --
+      - title: >-
+          TEDDY: A Pediatric Foundation Model for Risk Forewarning from
+          ICD-Coded Diagnostic Histories
+        authors:
+          - M. B. Neeley
+          - J. Botas
+          - J. Jia
+          - L. Yao
+          - "***Daniel Palacios***"
+          - et al.
+        journal: "arXiv:2607.14191 (preprint)"
+        doi: 10.48550/arXiv.2607.14191
+        date: 2026
+
+    research_software:
+      - label: Original, public
+        details: >-
+          clinical-clinpreai-benchmarks; clinical-antepartum-ppd-prediction;
+          clinical-trofinetide; clinical-diabetes-t1d-t2d; ml-nasa-nlp;
+          superconducting-diode-effect
+      - label: Forks
+        details: "AMMPER; MedSDoH; OverlapPlots (working copies; upstream licenses)"
+      - label: Private
+        details: >-
+          tch-mentormatching (private fork, available on request);
+          LiuzLab/phi-scrubber-evaluation (cite-only, resolves with access)
+
+    teaching_and_leadership:
+      - name: Teaching Assistant, Baylor College of Medicine
+        start_date: 2023
+        end_date: 2025
+        highlights:
+          - "QCMB 1 (2023-2024); QCMB 2 (2025)."
+          - "GSBS Outstanding TA in Quantitative and Computational Biosciences (2025)."
+      - name: Graduate Student Council Representative, QCB Program
+        start_date: 2024
+        highlights:
+          - "Chair, International Student Committee."
+          - "Career Development Committee; Newsletter."
+      - name: Research mentor
+        start_date: 2022
+        end_date: 2025
+        highlights:
+          - "7 trainees: 2 NASA Ames interns, 1 PREP, 1 SMS, 3 ASPIRE."
+
+    service:
+      - bullet: "Keck Seminar Committee (2024)"
+      - bullet: "Lathisms Committee (2024)"
+      - bullet: "Scribe, Lunar Biology Technology Workshop, NASA (2022)"
+      - bullet: "SACNAS Officer, University of Houston (2021)"
+
+    grants:
+      - label: BCM Seed Grant
+        details: "PI: Alison Goulding — awarded"
+      - label: dkNET NIDDK Grant
+        details: "PI: Dr. Tosur — awarded"
+
+    awards_and_honors:
+      - label: "2025"
+        details: "GSBS Outstanding TA in Quantitative and Computational Biosciences, Baylor College of Medicine"
+      - label: "2024"
+        details: "Dean's Award of Excellence, Baylor College of Medicine"
+      - label: "2024"
+        details: "NSF Graduate Research Fellowship"
+      - label: "2023"
+        details: "NLM Fellowship T15LM007093-32"
+      - label: "2023"
+        details: "Lathisms Scholarship"
+      - label: "2023"
+        details: "ASM Future Leaders Mentoring Fellowship"
+      - label: "2022"
+        details: "ADDSTEAM Scholarship"
+      - label: "2022"
+        details: "IMSD NIH-NIGMS Grant 5R25GM056929-25"
+      - label: "2022"
+        details: "Magna Cum Laude, University of Houston"
+      - label: "2021"
+        details: "Charles P. Benner Scholarship"
+      - label: "2021"
+        details: "Provost's Undergraduate Research Scholarship, University of Houston"
+      - label: "2021"
+        details: "British American Foundation of Texas Scholarship"
+      - label: "2020"
+        details: "Summer Undergraduate Research Fellowship, University of Houston"
+      - label: "2018-2022"
+        details: "Dean's Distinguished Scholar, University of Houston"
+      - label: "2018-2022"
+        details: "Academic Excellence Scholarship, University of Houston"
+
+    selected_presentations:
+      - bullet: >-
+          Goulding, A. N., **Daniel Palacios**, et al. "Factors associated with
+          postpartum depression symptoms following antepartum hospitalization."
+          Texas Children's Research Symposium. Poster. 2026.
+      - bullet: >-
+          **Daniel Palacios**, et al. "AI-Assisted Construction of Comprehensive
+          Pediatric Type 1 and Type 2 Diabetes Cohorts..." TMC AI Summit.
+          Poster. 2026.
+      - bullet: >-
+          **Daniel Palacios**, et al. "ClinPreAI: An Agentic AI System for Early
+          Postpartum Depression Risk Prediction..." TMC AI Summit. Poster. 2026.
+      - bullet: >-
+          Invited talks: NASA Ames Space Biosciences Research Branch (Aug 2022);
+          NASA Johnson Space Center Engineering Directorate (May 2022);
+          NASA Langley ML/AI Community Group (Jul 2021).
+
+    certifications_and_training:
+      - label: Graduate Tools and Models in Data Science
+        details: Rice University
+      - label: Machine Learning Certificate
+        details: Hewlett Packard Enterprise Data Science Institute
+      - label: Big Data Technology Fundamentals
+        details: Amazon Web Services / NASA
+      - label: Data Analysis Concepts
+        details: Percipio / NASA
+      - label: ETS Major Field Test in Mathematics
+        details: 198/200
+
+    skills:
+      - label: Languages
+        details: "Python (6+ yrs), R (3+), SQL (3+), MATLAB (2+), Java (1), C++ (1)"
+      - label: Libraries and frameworks
+        details: >-
+          NumPy, pandas, SciPy, scikit-learn, PyTorch, Matplotlib, Seaborn,
+          PySpark, LangChain, LangGraph, Optuna, Hugging Face Transformers,
+          spaCy, NLTK
+      - label: Machine learning
+        details: >-
+          Deep learning (CNNs, LSTMs, Transformers), PEFT/QLoRA, prompt
+          engineering, retrieval-augmented generation, agentic AI and
+          multi-agent design, AutoML
+      - label: Statistics and methods
+        details: >-
+          Experimental design, hypothesis testing, feature engineering,
+          statistical modeling
+      - label: Mathematics
+        details: "Probability, linear algebra, ODEs/PDEs, optimization"
+      - label: Platforms and tools
+        details: "AWS (SageMaker, Bedrock), Palantir Foundry, Docker, Git, Power BI"

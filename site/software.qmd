@@ -1,0 +1,58 @@
+---
+title: "Software"
+bibliography: ../software.bib
+nocite: |
+  @*
+---
+
+Generated from
+[software.bib](https://github.com/DanPalBCM/career-hub/blob/main/software.bib),
+the canonical record. Each entry's note states whether the repository is an
+original or a fork, and whether it is public or private. Papers are referenced
+by DOI; see [Publications](publications.qmd) for the full citations.
+
+## Original, public — companions to papers
+
+@sw-clinical-clinpreai-benchmarks — ClinPreAI benchmarks.
+Companion to DOI 10.1101/2025.11.14.25340265.
+
+@sw-clinical-antepartum-ppd-prediction — antepartum hospitalization and
+postpartum depression. Companion to DOI 10.1002/pmf2.70319.
+
+@sw-clinical-trofinetide — Trofinetide / Rett syndrome phenotyping.
+Companion to a manuscript under review.
+
+@sw-ml-nasa-nlp — space hardware failure reporting.
+Companion to DOI 10.1038/s41598-026-36813-7.
+
+@sw-superconducting-diode-effect — asymmetric supercurrents.
+Companion to DOI 10.1103/PhysRevB.108.094513.
+
+## Original, public — other
+
+@sw-clinical-diabetes-t1d-t2d — pediatric Type 1 / Type 2 diabetes EHR
+analysis. Code only; no patient data.
+
+## Forks (working copies; upstream licenses)
+
+@sw-ammper — agent-based model of microbial populations exposed to radiation;
+used with the NASA BioSentinel and LEIA missions.
+
+@sw-medsdoh — OHNLP-based social determinants of health extraction.
+Companion to DOI 10.64898/2026.04.27.26351699.
+
+@sw-overlapplots — R package for gene expression variation in neurological
+disease.
+
+## Private / cite-only
+
+@sw-tch-mentormatching — private fork of LiuzLab/tch-mentormatching;
+available on request.
+
+@sw-phi-scrubber-evaluation — private lab repository; the link resolves for
+people with access. No public mirror.
+
+## Full record
+
+::: {#refs}
+:::

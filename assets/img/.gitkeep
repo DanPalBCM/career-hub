@@ -1,0 +1,2 @@
+Images used by the Quarto site (headshot, figures).
+build.yml copies the whole assets/ tree into site/assets/ at build time.

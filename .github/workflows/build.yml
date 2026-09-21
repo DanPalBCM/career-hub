@@ -1,0 +1,119 @@
+# Render the CV (RenderCV) and the website (Quarto), then deploy to gh-pages.
+#
+# Pinned tool versions (verified 2026-09-21 against current releases):
+#   actions/checkout ............ v4
+#   actions/setup-python ........ v5
+#   quarto-dev/quarto-actions ... v2 (Quarto 1.7.32)
+#   peaceiris/actions-gh-pages .. v4
+#   Python ...................... 3.12
+#   RenderCV .................... 2.8
+#
+# Notes from verification:
+# - The `rendercv[full]` extra is required: the base `rendercv` package is a
+#   "partial installation" whose CLI refuses to run.
+# - RenderCV 2.2 is uninstallable in practice: current rendercv-fonts no
+#   longer ships "Font Awesome 6" and 2.2 hard-crashes on import. 2.8 works.
+# - RenderCV 2.8 CLI flags: `--output-folder` (not `--output-folder-name`).
+#   `--pdf-path` and friends are resolved RELATIVE TO THE INPUT FILE, so the
+#   PDF path below is written as ../assets/... because the input is cv/cv.yaml.
+
+name: build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  PYTHON_VERSION: "3.12"
+  RENDERCV_VERSION: "2.8"
+  QUARTO_VERSION: "1.7.32"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install RenderCV
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install "rendercv[full]==${RENDERCV_VERSION}"
+          rendercv --version
+
+      - name: Render CV to assets/cv/
+        run: |
+          set -euo pipefail
+          mkdir -p assets/cv
+          # --pdf-path is relative to the input file (cv/cv.yaml).
+          rendercv render cv/cv.yaml \
+            --design cv/rendercv_settings.yaml \
+            --output-folder rendercv_output \
+            --pdf-path ../assets/cv/cv-latest.pdf
+          test -s assets/cv/cv-latest.pdf
+          DATED="assets/cv/cv-$(date -u +%Y-%m).pdf"
+          cp assets/cv/cv-latest.pdf "$DATED"
+          echo "Rendered assets/cv/cv-latest.pdf and $DATED"
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: ${{ env.QUARTO_VERSION }}
+
+      - name: Stage assets for the site
+        run: |
+          set -euo pipefail
+          rm -rf site/assets
+          cp -r assets site/assets
+
+      - name: Render the site
+        run: quarto render site/
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: career-hub-build
+          path: |
+            assets/cv/*.pdf
+            site/_site
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Commit refreshed CV PDFs
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          set -euo pipefail
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/cv
+          if git diff --cached --quiet; then
+            echo "CV PDFs unchanged."
+          else
+            git commit -m "chore(cv): refresh rendered CV PDFs [skip ci]"
+            git push
+          fi
+
+      - name: Deploy to gh-pages
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site/_site
+          publish_branch: gh-pages
+          user_name: "github-actions[bot]"
+          user_email: "41898282+github-actions[bot]@users.noreply.github.com"
+          commit_message: "deploy: ${{ github.sha }}"

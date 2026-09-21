@@ -1,0 +1,134 @@
+% publications.bib
+% CANONICAL publication metadata for Daniel Palacios.
+%
+% This file is the ONLY place publication metadata is edited. The Quarto site
+% (site/publications.qmd) and tools/linkedin_diff.py read from it. cv/cv.yaml
+% mirrors these entries for RenderCV: if an entry changes here, change it there
+% in the same commit.
+%
+% keywords carries the status used for grouping on the website:
+% published | under-review | preprint
+% companion-repo names the repository in software.bib, where one exists.
+%
+% Under-review manuscripts without a public preprint carry metadata only:
+% title, authors, venue, status. No findings, no numbers.
+
+% ---------------------------------------------------------------- published --
+
+@article{hosur2023prb,
+  author         = {Hosur, Pavan and Palacios, Daniel},
+  title          = {Proximity-induced equilibrium supercurrent and perfect
+                    superconducting diode effect due to band asymmetry},
+  journal        = {Physical Review B},
+  year           = {2023},
+  volume         = {108},
+  pages          = {094513},
+  doi            = {10.1103/PhysRevB.108.094513},
+  url            = {https://doi.org/10.1103/PhysRevB.108.094513},
+  eprint         = {2210.09346},
+  archiveprefix  = {arXiv},
+  keywords       = {published},
+  companion-repo = {superconducting-diode-effect}
+}
+
+@article{palacios2026scirep,
+  author         = {Palacios, Daniel and Hill, T. R.},
+  title          = {Taxonomical modeling and classification in space hardware
+                    failure reporting},
+  journal        = {Scientific Reports},
+  year           = {2026},
+  doi            = {10.1038/s41598-026-36813-7},
+  url            = {https://doi.org/10.1038/s41598-026-36813-7},
+  keywords       = {published},
+  companion-repo = {ml-nasa-nlp}
+}
+
+@article{goulding2026pregnancy,
+  author         = {Goulding, A. N. and Palacios, Daniel and others},
+  title          = {Factors associated with postpartum depression symptoms
+                    following antepartum hospitalization},
+  journal        = {Pregnancy},
+  year           = {2026},
+  volume         = {2},
+  pages          = {e70319},
+  doi            = {10.1002/pmf2.70319},
+  url            = {https://doi.org/10.1002/pmf2.70319},
+  keywords       = {published},
+  companion-repo = {clinical-antepartum-ppd-prediction}
+}
+
+% ------------------------------------------------------------- under review --
+
+@article{ahn2026medsdoh,
+  author         = {Ahn, J. and Fu, S. and Palacios, Daniel and others},
+  title          = {MedSDoH: A Rule-Based System for Social Determinants of
+                    Health Extraction from Multi-site EHRs based on the OHNLP
+                    Framework},
+  journal        = {Journal of the American Medical Informatics Association},
+  year           = {2026},
+  doi            = {10.64898/2026.04.27.26351699},
+  url            = {https://doi.org/10.64898/2026.04.27.26351699},
+  note           = {Under review; manuscript amiajnl-2025-018748},
+  keywords       = {under-review},
+  companion-repo = {MedSDoH}
+}
+
+@article{palacios2026clinpreai,
+  author         = {Palacios, Daniel and others},
+  title          = {ClinPreAI: An Agentic AI System for Early Postpartum
+                    Depression Risk Prediction from Multimodal EHR Data},
+  journal        = {PLOS Digital Health},
+  year           = {2026},
+  doi            = {10.1101/2025.11.14.25340265},
+  url            = {https://doi.org/10.1101/2025.11.14.25340265},
+  note           = {Under review. Preprint DOI 10.1101/2025.11.14.25340265},
+  keywords       = {under-review},
+  companion-repo = {clinical-clinpreai-benchmarks}
+}
+
+@article{palacios2026phi,
+  author         = {Palacios, Daniel and others},
+  title          = {Institution-Specific LLM Prompting Recovers PHI That
+                    De-identification Systems and Their Gold Standards Both Miss},
+  journal        = {Journal of the American Medical Informatics Association},
+  year           = {2026},
+  doi            = {10.48550/arXiv.2608.17051},
+  url            = {https://doi.org/10.48550/arXiv.2608.17051},
+  eprint         = {2608.17051},
+  archiveprefix  = {arXiv},
+  note           = {Under review. Preprint DOI 10.48550/arXiv.2608.17051.
+                    Evaluation code: https://github.com/LiuzLab/phi-scrubber-evaluation
+                    (private lab repository; resolves for people with access)},
+  keywords       = {under-review},
+  companion-repo = {phi-scrubber-evaluation}
+}
+
+@article{palacios-trofinetide,
+  author         = {Palacios, Daniel and others},
+  title          = {Documenting Trofinetide Treatment Phenotypes in Rett
+                    Syndrome with a Dual-LLM Consensus Pipeline},
+  journal        = {Journal of the American Medical Informatics Association},
+  year           = {TODO(human): submission year for the Trofinetide manuscript},
+  note           = {Under review. No public preprint: metadata only until a
+                    preprint posts},
+  keywords       = {under-review},
+  companion-repo = {clinical-trofinetide}
+}
+
+% ----------------------------------------------------------------- preprint --
+
+@misc{neeley2026teddy,
+  author         = {Neeley, M. B. and Botas, J. and Jia, J. and Yao, L. and
+                    Palacios, Daniel and others},
+  title          = {TEDDY: A Pediatric Foundation Model for Risk Forewarning
+                    from ICD-Coded Diagnostic Histories},
+  year           = {2026},
+  doi            = {10.48550/arXiv.2607.14191},
+  url            = {https://doi.org/10.48550/arXiv.2607.14191},
+  eprint         = {2607.14191},
+  archiveprefix  = {arXiv},
+  howpublished   = {arXiv preprint arXiv:2607.14191},
+  note           = {Project led by others; no companion repository built here.
+                    TODO(human): upstream repository URL, if one is released},
+  keywords       = {preprint}
+}

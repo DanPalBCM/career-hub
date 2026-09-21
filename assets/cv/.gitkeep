@@ -1,0 +1,5 @@
+Rendered CV PDFs live here and ARE committed:
+- cv-latest.pdf: always the current CV
+- cv-YYYY-MM.pdf: dated snapshot for each content update
+
+Tag each content update: git tag cv-YYYY-MM && git push --tags

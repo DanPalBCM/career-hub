@@ -1,0 +1,54 @@
+# Check every URL in the README, the site sources, and the .bib files.
+# Fails on broken links.
+# Pinned tool versions — TODO(human): verify and bump if needed.
+#   actions/checkout ........... v4
+#   lycheeverse/lychee-action .. v2
+
+name: linkcheck
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    # Mondays at 07:00 UTC
+    - cron: "0 7 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Run lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          fail: true
+          args: >-
+            --no-progress
+            --max-retries 3
+            --retry-wait-time 5
+            --timeout 30
+            --accept 200,206,403,999
+            --exclude "https://github.com/LiuzLab/phi-scrubber-evaluation"
+            --exclude "https://github.com/DanPalBCM/tch-mentormatching"
+            --exclude "linkedin\.com"
+            --exclude-mail
+            README.md
+            CITATION.cff
+            publications.bib
+            software.bib
+            'site/**/*.qmd'
+            site/_quarto.yml
+
+# Excluded on purpose:
+#   LiuzLab/phi-scrubber-evaluation — private lab repository; 404s for anonymous
+#   requests but resolves for people with access.
+#   DanPalBCM/tch-mentormatching — private fork; same reason.
+#   linkedin.com — blocks automated requests.

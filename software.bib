@@ -1,0 +1,155 @@
+% software.bib
+% CANONICAL research-software metadata: one @software entry per repository.
+%
+% Each entry records the repository URL, its license, and a note stating
+% fork-vs-original and public-vs-private status. Forks stay forks: the note
+% says so. Papers are cross-referenced by DOI (related-doi) and never
+% duplicated here — publication metadata lives in publications.bib.
+%
+% keywords values used for grouping on the website:
+% original | fork | public | private
+
+% ------------------------------------------------- original, public (papers) --
+
+@software{sw-clinical-clinpreai-benchmarks,
+  author      = {Palacios, Daniel},
+  title       = {clinical-clinpreai-benchmarks},
+  url         = {https://github.com/DanPalBCM/clinical-clinpreai-benchmarks},
+  license     = {TODO(human): choose MIT or Apache-2.0 and add the LICENSE file
+                 to the repository},
+  related-doi = {10.1101/2025.11.14.25340265},
+  keywords    = {original, public},
+  note        = {Original work; public. Companion code for ClinPreAI
+                 (DOI 10.1101/2025.11.14.25340265). NEVER RENAME: this
+                 repository name is cited in the manuscript.}
+}
+
+@software{sw-clinical-antepartum-ppd-prediction,
+  author      = {Palacios, Daniel},
+  title       = {clinical-antepartum-ppd-prediction},
+  url         = {https://github.com/DanPalBCM/clinical-antepartum-ppd-prediction},
+  license     = {TODO(human): choose MIT or Apache-2.0 and add the LICENSE file
+                 to the repository},
+  related-doi = {10.1002/pmf2.70319},
+  keywords    = {original, public},
+  note        = {Original work; public. Companion code for the Pregnancy 2026
+                 paper (DOI 10.1002/pmf2.70319). Code only; no patient data.}
+}
+
+@software{sw-clinical-trofinetide,
+  author      = {Palacios, Daniel},
+  title       = {clinical-trofinetide},
+  url         = {https://github.com/DanPalBCM/clinical-trofinetide},
+  license     = {TODO(human): choose MIT or Apache-2.0 and add the LICENSE file
+                 to the repository},
+  keywords    = {original, public},
+  note        = {Original work; public. Companion code for the Trofinetide /
+                 Rett syndrome manuscript (under review; metadata only until a
+                 preprint posts). Code only; no patient data.}
+}
+
+@software{sw-ml-nasa-nlp,
+  author      = {Palacios, Daniel},
+  title       = {ml-nasa-nlp},
+  url         = {https://github.com/DanPalBCM/ml-nasa-nlp},
+  license     = {TODO(human): choose MIT or Apache-2.0 and add the LICENSE file
+                 to the repository},
+  related-doi = {10.1038/s41598-026-36813-7},
+  keywords    = {original, public},
+  note        = {Original work; public. Companion code for the Scientific
+                 Reports 2026 paper (DOI 10.1038/s41598-026-36813-7).}
+}
+
+@software{sw-superconducting-diode-effect,
+  author      = {Palacios, Daniel},
+  title       = {superconducting-diode-effect},
+  url         = {https://github.com/DanPalBCM/superconducting-diode-effect},
+  license     = {TODO(human): choose MIT or Apache-2.0 and add the LICENSE file
+                 to the repository},
+  related-doi = {10.1103/PhysRevB.108.094513},
+  keywords    = {original, public},
+  note        = {Original work; public. Companion code for the Physical Review
+                 B 2023 paper (DOI 10.1103/PhysRevB.108.094513). Also holds the
+                 senior-project theory PDF.}
+}
+
+% ---------------------------------------------- original, public (no paper) --
+
+@software{sw-clinical-diabetes-t1d-t2d,
+  author      = {Palacios, Daniel},
+  title       = {clinical-diabetes-t1d-t2d},
+  url         = {https://github.com/DanPalBCM/clinical-diabetes-t1d-t2d},
+  license     = {TODO(human): choose MIT or Apache-2.0 and add the LICENSE file
+                 to the repository},
+  keywords    = {original, public},
+  note        = {Original work; public. Pediatric Type 1 / Type 2 diabetes EHR
+                 analysis. Code only; no patient data.}
+}
+
+% ---------------------------------------------------------------------- forks --
+
+@software{sw-ammper,
+  author      = {Palacios, Daniel},
+  title       = {AMMPER},
+  url         = {https://github.com/DanPalBCM/AMMPER},
+  license     = {see upstream},
+  keywords    = {fork, public},
+  note        = {Fork: working copy of the NASA Ames collaboration. Agent-Based
+                 Model for Microbial Populations Exposed to Radiation —
+                 optimized simulation of microbe cells under ionizing deep-space
+                 radiation, used with the NASA BioSentinel and LEIA missions.
+                 License follows upstream. TODO(human): upstream repository URL
+                 and upstream authorship.}
+}
+
+@software{sw-medsdoh,
+  author      = {Palacios, Daniel},
+  title       = {MedSDoH},
+  url         = {https://github.com/DanPalBCM/MedSDoH},
+  license     = {see upstream},
+  related-doi = {10.64898/2026.04.27.26351699},
+  keywords    = {fork, public},
+  note        = {Fork: working copy of the OHNLP-based MedSDoH project.
+                 Companion to the MedSDoH manuscript
+                 (DOI 10.64898/2026.04.27.26351699). License follows upstream.
+                 TODO(human): upstream repository URL and upstream authorship.}
+}
+
+@software{sw-overlapplots,
+  author      = {Palacios, Daniel},
+  title       = {OverlapPlots},
+  url         = {https://github.com/DanPalBCM/OverlapPlots},
+  license     = {see upstream},
+  keywords    = {fork, public},
+  note        = {Fork: working copy. R package for analyzing gene expression
+                 variations in neurological diseases, particularly synaptic
+                 dysfunction. License follows upstream. TODO(human): upstream
+                 repository URL and upstream authorship.}
+}
+
+% --------------------------------------------------------- private / link-only --
+
+@software{sw-tch-mentormatching,
+  author   = {Palacios, Daniel},
+  title    = {tch-mentormatching},
+  url      = {https://github.com/DanPalBCM/tch-mentormatching},
+  license  = {see upstream},
+  keywords = {fork, private},
+  note     = {Private fork of LiuzLab/tch-mentormatching. Retrieval-augmented
+              generation system that matches a mentee with Texas Children's
+              Hospital mentors from a CV or an interest description.
+              Private; available on request. The URL resolves only for people
+              with access.}
+}
+
+@software{sw-phi-scrubber-evaluation,
+  author      = {TODO(human): upstream authorship for the LiuzLab evaluation repository},
+  title       = {phi-scrubber-evaluation},
+  url         = {https://github.com/LiuzLab/phi-scrubber-evaluation},
+  license     = {see upstream},
+  related-doi = {10.48550/arXiv.2608.17051},
+  keywords    = {private},
+  note        = {Cite-only: private lab repository; resolves with access. No
+                 public mirror. Evaluation code for the de-identification
+                 benchmark manuscript (DOI 10.48550/arXiv.2608.17051).}
+}

@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you refer to this collection of career materials, please cite it as below."
+title: "career-hub: canonical career materials for Daniel Palacios"
+abstract: >-
+  Source of truth for Daniel Palacios's publications, research software,
+  curriculum vitae, and public profile site. Publication and software metadata
+  are maintained as BibTeX records; the website and CV are generated from them.
+type: software
+authors:
+  - family-names: Palacios
+    given-names: Daniel
+    email: Daniel.Palacios@bcm.edu
+    affiliation: "Baylor College of Medicine"
+    # TODO(human): add ORCID iD, e.g. orcid: "https://orcid.org/0000-0000-0000-0000"
+repository-code: "https://github.com/DanPalBCM/career-hub"
+url: "https://danpalbcm.github.io/career-hub/"
+license: CC-BY-4.0
+keywords:
+  - curriculum vitae
+  - publications
+  - research software
+  - clinical informatics
+  - machine learning
+# TODO(human): set version and date-released when you cut the first tagged
+# release of the hub itself (separate from the cv-YYYY-MM CV tags).

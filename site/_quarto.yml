@@ -1,0 +1,49 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Daniel Palacios"
+  site-url: https://danpalbcm.github.io/career-hub/
+  repo-url: https://github.com/DanPalBCM/career-hub
+  description: >-
+    Publications, research software, and CV for Daniel Palacios, Ph.D.
+    candidate in Quantitative and Computational Biosciences at Baylor College
+    of Medicine.
+  navbar:
+    left:
+      - href: index.qmd
+        text: About
+      - href: publications.qmd
+        text: Publications
+      - href: software.qmd
+        text: Software
+      - href: career.qmd
+        text: Career
+      - href: assets/cv/cv-latest.pdf
+        text: CV (PDF)
+    right:
+      - icon: github
+        href: https://github.com/DanPalBCM
+        aria-label: GitHub
+  page-footer:
+    left: "Daniel.Palacios@bcm.edu"
+    right: >-
+      Built from
+      [DanPalBCM/career-hub](https://github.com/DanPalBCM/career-hub).
+      Content licensed CC BY 4.0.
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 2
+    anchor-sections: true
+    link-external-newwindow: true
+    grid:
+      body-width: 900px
+
+# Bibliographies are set per page (publications.qmd, software.qmd) so each
+# page reads only its own canonical .bib file.
+link-citations: true
