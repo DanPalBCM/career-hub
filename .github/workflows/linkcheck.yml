@@ -39,7 +39,6 @@ jobs:
             --exclude "https://github.com/LiuzLab/phi-scrubber-evaluation"
             --exclude "https://github.com/DanPalBCM/tch-mentormatching"
             --exclude "linkedin\.com"
-            --exclude-mail
             README.md
             CITATION.cff
             publications.bib
@@ -52,3 +51,4 @@ jobs:
 #   requests but resolves for people with access.
 #   DanPalBCM/tch-mentormatching — private fork; same reason.
 #   linkedin.com — blocks automated requests.
+# Mailto links are not checked: lychee skips them unless --include-mail is given.
