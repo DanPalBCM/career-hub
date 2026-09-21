@@ -1,0 +1,170 @@
+[
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software",
+    "section": "",
+    "text": "Generated from software.bib, the canonical record. Each entry’s note states whether the repository is an original or a fork, and whether it is public or private. Papers are referenced by DOI; see Publications for the full citations."
+  },
+  {
+    "objectID": "software.html#original-public-companions-to-papers",
+    "href": "software.html#original-public-companions-to-papers",
+    "title": "Software",
+    "section": "Original, public — companions to papers",
+    "text": "Original, public — companions to papers\nPalacios (n.d.c) — ClinPreAI benchmarks. Companion to DOI 10.1101/2025.11.14.25340265.\nPalacios (n.d.b) — antepartum hospitalization and postpartum depression. Companion to DOI 10.1002/pmf2.70319.\nPalacios (n.d.e) — Trofinetide / Rett syndrome phenotyping. Companion to a manuscript under review.\nPalacios (n.d.g) — space hardware failure reporting. Companion to DOI 10.1038/s41598-026-36813-7.\nPalacios (n.d.i) — asymmetric supercurrents. Companion to DOI 10.1103/PhysRevB.108.094513."
+  },
+  {
+    "objectID": "software.html#original-public-other",
+    "href": "software.html#original-public-other",
+    "title": "Software",
+    "section": "Original, public — other",
+    "text": "Original, public — other\nPalacios (n.d.d) — pediatric Type 1 / Type 2 diabetes EHR analysis. Code only; no patient data."
+  },
+  {
+    "objectID": "software.html#forks-working-copies-upstream-licenses",
+    "href": "software.html#forks-working-copies-upstream-licenses",
+    "title": "Software",
+    "section": "Forks (working copies; upstream licenses)",
+    "text": "Forks (working copies; upstream licenses)\nPalacios (n.d.a) — agent-based model of microbial populations exposed to radiation; used with the NASA BioSentinel and LEIA missions.\nPalacios (n.d.f) — OHNLP-based social determinants of health extraction. Companion to DOI 10.64898/2026.04.27.26351699.\nPalacios (n.d.h) — R package for gene expression variation in neurological disease."
+  },
+  {
+    "objectID": "software.html#private-cite-only",
+    "href": "software.html#private-cite-only",
+    "title": "Software",
+    "section": "Private / cite-only",
+    "text": "Private / cite-only\nPalacios (n.d.j) — private fork of LiuzLab/tch-mentormatching; available on request.\nLiuzLab evaluation repository (n.d.) — private lab repository; the link resolves for people with access. No public mirror."
+  },
+  {
+    "objectID": "software.html#full-record",
+    "href": "software.html#full-record",
+    "title": "Software",
+    "section": "Full record",
+    "text": "Full record\n\n\nLiuzLab evaluation repository, TODO(human): upstream authorship for the. n.d. “Phi-Scrubber-Evaluation.” https://github.com/LiuzLab/phi-scrubber-evaluation.\n\n\nPalacios, Daniel. n.d.a. “AMMPER.” https://github.com/DanPalBCM/AMMPER.\n\n\n———. n.d.b. “Clinical-Antepartum-Ppd-Prediction.” https://github.com/DanPalBCM/clinical-antepartum-ppd-prediction.\n\n\n———. n.d.c. “Clinical-Clinpreai-Benchmarks.” https://github.com/DanPalBCM/clinical-clinpreai-benchmarks.\n\n\n———. n.d.d. “Clinical-Diabetes-T1d-T2d.” https://github.com/DanPalBCM/clinical-diabetes-t1d-t2d.\n\n\n———. n.d.e. “Clinical-Trofinetide.” https://github.com/DanPalBCM/clinical-trofinetide.\n\n\n———. n.d.f. “MedSDoH.” https://github.com/DanPalBCM/MedSDoH.\n\n\n———. n.d.g. “Ml-Nasa-Nlp.” https://github.com/DanPalBCM/ml-nasa-nlp.\n\n\n———. n.d.h. “OverlapPlots.” https://github.com/DanPalBCM/OverlapPlots.\n\n\n———. n.d.i. “Superconducting-Diode-Effect.” https://github.com/DanPalBCM/superconducting-diode-effect.\n\n\n———. n.d.j. “Tch-Mentormatching.” https://github.com/DanPalBCM/tch-mentormatching."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Every entry below is generated from publications.bib, the canonical record. Full references, with DOIs, are listed at the bottom of this page.\nManuscripts under review without a public preprint are listed as metadata only — title, authors, venue, status."
+  },
+  {
+    "objectID": "publications.html#published",
+    "href": "publications.html#published",
+    "title": "Publications",
+    "section": "Published",
+    "text": "Published\nHosur and Palacios (2023)\nPalacios and Hill (2026)\nGoulding, Palacios, et al. (2026)"
+  },
+  {
+    "objectID": "publications.html#under-review",
+    "href": "publications.html#under-review",
+    "title": "Publications",
+    "section": "Under review",
+    "text": "Under review\nAhn et al. (2026)\nPalacios et al. (2026a)\nPalacios et al. (2026b)\nPalacios et al. (TODO(human): submission year for the Trofinetide manuscript) — no public preprint; metadata only."
+  },
+  {
+    "objectID": "publications.html#preprints",
+    "href": "publications.html#preprints",
+    "title": "Publications",
+    "section": "Preprints",
+    "text": "Preprints\nNeeley et al. (2026)"
+  },
+  {
+    "objectID": "publications.html#full-reference-list",
+    "href": "publications.html#full-reference-list",
+    "title": "Publications",
+    "section": "Full reference list",
+    "text": "Full reference list\n\n\nAhn, J., S. Fu, Daniel Palacios, et al. 2026. “MedSDoH: A Rule-Based System for Social Determinants of Health Extraction from Multi-Site EHRs Based on the OHNLP Framework.” Journal of the American Medical Informatics Association. https://doi.org/10.64898/2026.04.27.26351699.\n\n\nGoulding, A. N., Daniel Palacios, et al. 2026. “Factors Associated with Postpartum Depression Symptoms Following Antepartum Hospitalization.” Pregnancy 2: e70319. https://doi.org/10.1002/pmf2.70319.\n\n\nHosur, Pavan, and Daniel Palacios. 2023. “Proximity-Induced Equilibrium Supercurrent and Perfect Superconducting Diode Effect Due to Band Asymmetry.” Physical Review B 108: 094513. https://doi.org/10.1103/PhysRevB.108.094513.\n\n\nNeeley, M. B., J. Botas, J. Jia, L. Yao, Daniel Palacios, et al. 2026. “TEDDY: A Pediatric Foundation Model for Risk Forewarning from ICD-Coded Diagnostic Histories.” arXiv preprint arXiv:2607.14191. https://doi.org/10.48550/arXiv.2607.14191.\n\n\nPalacios, Daniel et al. TODO(human): submission year for the Trofinetide manuscript. “Documenting Trofinetide Treatment Phenotypes in Rett Syndrome with a Dual-LLM Consensus Pipeline.” Journal of the American Medical Informatics Association, TODO(human): submission year for the Trofinetide manuscript.\n\n\n——— et al. 2026a. “ClinPreAI: An Agentic AI System for Early Postpartum Depression Risk Prediction from Multimodal EHR Data.” PLOS Digital Health. https://doi.org/10.1101/2025.11.14.25340265.\n\n\n——— et al. 2026b. “Institution-Specific LLM Prompting Recovers PHI That de-Identification Systems and Their Gold Standards Both Miss.” Journal of the American Medical Informatics Association. https://doi.org/10.48550/arXiv.2608.17051.\n\n\nPalacios, Daniel, and T. R. Hill. 2026. “Taxonomical Modeling and Classification in Space Hardware Failure Reporting.” Scientific Reports. https://doi.org/10.1038/s41598-026-36813-7."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Daniel Palacios",
+    "section": "",
+    "text": "Graduate Student Researcher, Liu Lab — Data Science Center, Duncan Neurological Research Institute, Texas Children’s Hospital / Baylor College of Medicine (2022–present). Advisor: Dr. Zhandong Liu.\nAI Developer and Research Design Intern, Peraton — Cyber Operations, Cyber and Intelligence Sector (2026–present, remote)."
+  },
+  {
+    "objectID": "index.html#current-positions",
+    "href": "index.html#current-positions",
+    "title": "Daniel Palacios",
+    "section": "",
+    "text": "Graduate Student Researcher, Liu Lab — Data Science Center, Duncan Neurological Research Institute, Texas Children’s Hospital / Baylor College of Medicine (2022–present). Advisor: Dr. Zhandong Liu.\nAI Developer and Research Design Intern, Peraton — Cyber Operations, Cyber and Intelligence Sector (2026–present, remote)."
+  },
+  {
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "Daniel Palacios",
+    "section": "About",
+    "text": "About\nDaniel Palacios is a Ph.D. candidate in Quantitative and Computational Biosciences at Baylor College of Medicine (2022–2027) and an NSF Graduate Research Fellow. He works in the Liu Lab at Texas Children’s Hospital’s Duncan Neurological Research Institute, where he applies AI and machine learning — LLM-powered agentic systems, multi-agent architectures, and EHR foundation models — to clinical informatics and computational biology. His projects span postpartum mental-health prediction, pediatric diabetes outcomes, treatment-response phenotyping, clinical-note de-identification, and pediatric disease-trajectory modeling. He was previously a Research Associate at NASA Ames Research Center (space radiation biology) and a Machine Learning Researcher Intern at NASA Johnson Space Center (NLP for engineering failure reports), and did undergraduate research in theoretical superconductivity at the University of Houston, where he earned a B.S. in Physics and Mathematics in 2022. His work has appeared in Physical Review B, Scientific Reports, and Pregnancy, with manuscripts under review at JAMIA and PLOS Digital Health and a preprint on arXiv."
+  },
+  {
+    "objectID": "index.html#links",
+    "href": "index.html#links",
+    "title": "Daniel Palacios",
+    "section": "Links",
+    "text": "Links\n\nCV (PDF): cv-latest.pdf\nGitHub: DanPalBCM\nLinkedIn: TODO(human): LinkedIn profile URL\nORCID: TODO(human): ORCID iD URL\nGoogle Scholar: TODO(human): Google Scholar profile URL\nEmail: Daniel.Palacios@bcm.edu\n\nHouston, Texas."
+  },
+  {
+    "objectID": "career.html",
+    "href": "career.html",
+    "title": "Career",
+    "section": "",
+    "text": "A condensed timeline. The CV PDF has the full detail."
+  },
+  {
+    "objectID": "career.html#education",
+    "href": "career.html#education",
+    "title": "Career",
+    "section": "Education",
+    "text": "Education\nPh.D., Quantitative and Computational Biosciences — Baylor College of Medicine, 2022–2027. NSF Graduate Research Fellow (2024); NLM Fellow (2023); Dean’s Award of Excellence (2024).\nB.S., Physics and Mathematics (double major) — University of Houston, 2018–2022. GPA 3.95/4.00, magna cum laude; Dean’s Distinguished Scholar (2018–2022)."
+  },
+  {
+    "objectID": "career.html#experience",
+    "href": "career.html#experience",
+    "title": "Career",
+    "section": "Experience",
+    "text": "Experience\n\nAI Developer and Research Design Intern — Peraton\nReston, VA (Remote) · Aug 2026 – present\nCyber Operations, Cyber and Intelligence Sector; mentor Ebenezer Dadson. Building software powered by large language models and multi-agent systems, and designing evaluation protocols and controlled experiments measuring how design parameters and system factors affect performance and reliability.\n\n\nGraduate Student Researcher — Baylor College of Medicine\nHouston, TX · 2022 – present\nLiu Lab, Data Science Center, Duncan Neurological Research Institute, Texas Children’s Hospital; advisor Dr. Zhandong Liu.\n\nClinPreAI — agentic AI system (research, planning, coding, debugging, and interpretation modules) for early postpartum depression risk prediction (EPDS ≥ 10, 31% prevalence) from a single antepartum hospitalization; 4,161 patients, 27 structured variables plus social worker notes; F1 0.68 structured / 0.65 multimodal, matching a custom LLM-XGBoost pipeline.\nPediatric diabetes (T1D/T2D) — PySpark pipeline on Palantir Foundry built from OMOP CDM and Epic Clarity EHR data; T2D n = 2,489, T1D n = 4,018; seven binary outcomes at 2- and 5-year horizons; multi-agent LLM clinical-reasoning architectures compared against eight classical ML and deep-learning baselines.\nTrofinetide / Rett syndrome — dual-LLM consensus pipeline extracting 18 treatment-response phenotypes from 26,763 notes (108 patients); 84.2% accuracy and F1 0.674 on the expert-annotated development set.\nClinical-note de-identification — benchmarked eight LLMs against Stanford TiDE, OpenMed PII, and pattern baselines on 100 expert-annotated pediatric oncology notes (5,322 PHI spans); best single-pass F1 0.918 ± 0.001; introduced “institutionally-situated PHI”; used LLM outputs to surface 414 candidate gold-standard annotation gaps.\nTEDDY — contributed to a 1.84M-parameter generative pediatric EHR foundation model trained on ~1.6M children and ~73M ICD-10 codes; median first-occurrence AUC 0.72 across 797 disease-onset tasks.\n\n\n\nResearch Associate — NASA Ames Research Center\nMountain View, CA · May – Aug 2022 (collaboration continued remotely through Aug 2026)\nSpace Biosciences Division; mentor Dr. Jessica Lee. Developed the AMMPER model simulating cell damage under space radiation, validated against BioSentinel mission data; added gamma radiation and alamarBlue metabolic-dye dynamics (Michaelis-Menten kinetics) and a 3D free-radical diffusion model; mentored two undergraduates who carried the project forward; four presentations.\n\n\nMachine Learning Researcher Intern — NASA Johnson Space Center\nHouston, TX · 2021 – 2022\nMentor Terry Hill. Built an NLP pipeline over historical engineering failure reports and an LDA-BERT taxonomy for space-hardware failure reporting; delivered Power BI dashboards and interactive knowledge graphs (INDRA-EIDOS, spaCy, Bokeh-networkx); identified 5–15 critical engineering processes; eight presentations.\n\n\nUndergraduate Researcher — University of Houston\nHouston, TX · 2020 – 2021\nAdvisor Dr. Pavan Hosur. Theoretical work on asymmetric superconductivity under broken symmetries; modeled asymmetric supercurrents in non-centrosymmetric superconductors; one conference presentation; one Physical Review B publication."
+  },
+  {
+    "objectID": "career.html#teaching-and-leadership",
+    "href": "career.html#teaching-and-leadership",
+    "title": "Career",
+    "section": "Teaching and leadership",
+    "text": "Teaching and leadership\n\nTeaching Assistant, Baylor College of Medicine, 2023–2025 — QCMB 1 (2023–2024), QCMB 2 (2025).\nGraduate Student Council Representative, QCB Program, 2024–present — Chair, International Student Committee; Career Development Committee; Newsletter.\nResearch mentor, 2022–2025 — seven trainees: two NASA Ames interns, one PREP, one SMS, three ASPIRE."
+  },
+  {
+    "objectID": "career.html#service",
+    "href": "career.html#service",
+    "title": "Career",
+    "section": "Service",
+    "text": "Service\nKeck Seminar Committee (2024); Lathisms Committee (2024); scribe, Lunar Biology Technology Workshop, NASA (2022); SACNAS Officer, University of Houston (2021)."
+  },
+  {
+    "objectID": "career.html#grants",
+    "href": "career.html#grants",
+    "title": "Career",
+    "section": "Grants",
+    "text": "Grants\nBCM Seed Grant (PI: Alison Goulding) — awarded. dkNET NIDDK Grant (PI: Dr. Tosur) — awarded."
+  },
+  {
+    "objectID": "career.html#selected-presentations",
+    "href": "career.html#selected-presentations",
+    "title": "Career",
+    "section": "Selected presentations",
+    "text": "Selected presentations\n\nGoulding, A. N., Daniel Palacios, et al. “Factors associated with postpartum depression symptoms following antepartum hospitalization.” Texas Children’s Research Symposium. Poster. 2026.\nDaniel Palacios, et al. “AI-Assisted Construction of Comprehensive Pediatric Type 1 and Type 2 Diabetes Cohorts…” TMC AI Summit. Poster. 2026.\nDaniel Palacios, et al. “ClinPreAI: An Agentic AI System for Early Postpartum Depression Risk Prediction…” TMC AI Summit. Poster. 2026.\nInvited: NASA Ames Space Biosciences Research Branch (Aug 2022); NASA Johnson Space Center Engineering Directorate (May 2022); NASA Langley ML/AI Community Group (Jul 2021)."
+  },
+  {
+    "objectID": "career.html#awards-and-honors",
+    "href": "career.html#awards-and-honors",
+    "title": "Career",
+    "section": "Awards and honors",
+    "text": "Awards and honors\n\n\n\n\n\n\n\nYear\nAward\n\n\n\n\n2025\nGSBS Outstanding TA in Quantitative and Computational Biosciences, BCM\n\n\n2024\nDean’s Award of Excellence, BCM\n\n\n2024\nNSF Graduate Research Fellowship\n\n\n2023\nNLM Fellowship\n\n\n2023\nLathisms Scholarship\n\n\n2023\nASM Future Leaders Mentoring Fellowship\n\n\n2022\nADDSTEAM Scholarship\n\n\n2022\nIMSD NIH-NIGMS Grant\n\n\n2022\nMagna Cum Laude, University of Houston\n\n\n2021\nCharles P. Benner Scholarship\n\n\n2021\nProvost’s Undergraduate Research Scholarship, University of Houston\n\n\n2021\nBritish American Foundation of Texas Scholarship\n\n\n2020\nSummer Undergraduate Research Fellowship, University of Houston\n\n\n2018–2022\nDean’s Distinguished Scholar, University of Houston\n\n\n2018–2022\nAcademic Excellence Scholarship, University of Houston"
+  },
+  {
+    "objectID": "career.html#certifications-and-training",
+    "href": "career.html#certifications-and-training",
+    "title": "Career",
+    "section": "Certifications and training",
+    "text": "Certifications and training\n\nGraduate Tools and Models in Data Science — Rice University.\nMachine Learning Certificate — Hewlett Packard Enterprise Data Science Institute.\nBig Data Technology Fundamentals — Amazon Web Services / NASA.\nData Analysis Concepts — Percipio / NASA.\nETS Major Field Test in Mathematics: 198/200."
+  }
+]
