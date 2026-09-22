@@ -39,6 +39,7 @@ jobs:
             --exclude "https://github.com/LiuzLab/phi-scrubber-evaluation"
             --exclude "https://github.com/DanPalBCM/tch-mentormatching"
             --exclude "linkedin\.com"
+            --exclude "tile\.openstreetmap\.org"
             README.md
             CITATION.cff
             publications.bib
@@ -51,4 +52,6 @@ jobs:
 #   requests but resolves for people with access.
 #   DanPalBCM/tch-mentormatching — private fork; same reason.
 #   linkedin.com — blocks automated requests.
+#   tile.openstreetmap.org — Leaflet tile URL template ({z}/{x}/{y}) in
+#     site/travels.qmd; it is not a fetchable link.
 # Mailto links are not checked: lychee skips them unless --include-mail is given.

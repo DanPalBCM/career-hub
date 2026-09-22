@@ -20,6 +20,8 @@ website:
         text: Software
       - href: career.qmd
         text: Career
+      - href: travels.qmd
+        text: Travels
       - href: assets/cv/cv-latest.pdf
         text: CV (PDF)
     right:

@@ -1,0 +1,82 @@
+---
+title: "Travels"
+page-layout: full
+toc: false
+resources:
+  - "assets/img/travel/*.jpg"
+---
+
+<link rel="stylesheet" href="assets/vendor/leaflet/leaflet.css"/>
+
+<style>
+#travel-map {
+  height: 72vh;
+  min-height: 480px;
+  width: 100%;
+  border-radius: 10px;
+  z-index: 1;
+}
+.travel-popup img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 6px;
+  margin-top: 6px;
+  display: block;
+}
+.travel-popup .city {
+  font-size: 1.05em;
+}
+</style>
+
+A few of the places I've been lucky enough to visit — drag the map, click a
+pin to see the photo.
+
+<div id="travel-map"></div>
+
+<script src="assets/vendor/leaflet/leaflet.js"></script>
+<script>
+(function () {
+  var map = L.map('travel-map', { worldCopyJump: true }).setView([32, 10], 2);
+
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 18,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+
+  var places = [
+    { name: "Austin",        country: "USA",    lat: 30.2672,  lng: -97.7431,  img: "austin.jpg" },
+    { name: "Boston",       country: "USA",    lat: 42.3601,  lng: -71.0589,  img: "boston.jpg" },
+    { name: "Cancun",       country: "Mexico", lat: 21.1619,  lng: -86.8515,  img: "cancun.jpg" },
+    { name: "Chengdu",      country: "China",  lat: 30.5728,  lng: 104.0668,  img: "chengdu.jpg" },
+    { name: "Chongqing",    country: "China",  lat: 29.5630,  lng: 106.5516,  img: "chongqing.jpg" },
+    { name: "Galveston",    country: "USA",    lat: 29.3013,  lng: -94.7977,  img: "galveston.jpg" },
+    { name: "Hong Kong",    country: "China",  lat: 22.3193,  lng: 114.1694,  img: "hong-kong.jpg" },
+    { name: "Los Angeles",  country: "USA",    lat: 34.0522,  lng: -118.2437, img: "los-angeles.jpg" },
+    { name: "Macao",        country: "China",  lat: 22.1987,  lng: 113.5439,  img: "macao.jpg" },
+    { name: "Monterrey",    country: "Mexico", lat: 25.6866,  lng: -100.3161, img: "monterrey.jpg" },
+    { name: "New York",     country: "USA",    lat: 40.7128,  lng: -74.0060,  img: "new-york.jpg" },
+    { name: "Shanghai",     country: "China",  lat: 31.2304,  lng: 121.4737,  img: "shanghai.jpg" },
+    { name: "Shenzhen",     country: "China",  lat: 22.5431,  lng: 114.0579,  img: "shenzhen.jpg" },
+    { name: "Tokyo",        country: "Japan",  lat: 35.6762,  lng: 139.6503,  img: "tokyo.jpg" },
+    { name: "Vancouver",    country: "Canada", lat: 49.2827,  lng: -123.1207, img: "vancouver.jpg" },
+    { name: "Xi'an",        country: "China",  lat: 34.3416,  lng: 108.9398,  img: "xian.jpg" }
+  ];
+
+  places.forEach(function (p) {
+    var marker = L.circleMarker([p.lat, p.lng], {
+      radius: 8,
+      color: '#0d6efd',
+      weight: 2,
+      fillColor: '#0d6efd',
+      fillOpacity: 0.7
+    }).addTo(map);
+    marker.bindPopup(
+      '<div class="travel-popup">' +
+        '<span class="city"><strong>' + p.name + '</strong>, ' + p.country + '</span>' +
+        '<img src="assets/img/travel/' + p.img + '" alt="' + p.name + '" loading="lazy"/>' +
+      '</div>',
+      { maxWidth: 320 }
+    );
+  });
+})();
+</script>
