@@ -1,108 +1,10 @@
 [
   {
-    "objectID": "software.html",
-    "href": "software.html",
-    "title": "Software",
+    "objectID": "travels.html",
+    "href": "travels.html",
+    "title": "Travels",
     "section": "",
-    "text": "Generated from software.bib, the canonical record. Each entry’s note states whether the repository is an original or a fork, and whether it is public or private. Papers are referenced by DOI; see Publications for the full citations."
-  },
-  {
-    "objectID": "software.html#original-public-companions-to-papers",
-    "href": "software.html#original-public-companions-to-papers",
-    "title": "Software",
-    "section": "Original, public — companions to papers",
-    "text": "Original, public — companions to papers\nPalacios (n.d.c) — ClinPreAI benchmarks. Companion to DOI 10.1101/2025.11.14.25340265.\nPalacios (n.d.b) — antepartum hospitalization and postpartum depression. Companion to DOI 10.1002/pmf2.70319.\nPalacios (n.d.e) — Trofinetide / Rett syndrome phenotyping. Companion to a manuscript under review.\nPalacios (n.d.g) — space hardware failure reporting. Companion to DOI 10.1038/s41598-026-36813-7.\nPalacios (n.d.i) — asymmetric supercurrents. Companion to DOI 10.1103/PhysRevB.108.094513."
-  },
-  {
-    "objectID": "software.html#original-public-other",
-    "href": "software.html#original-public-other",
-    "title": "Software",
-    "section": "Original, public — other",
-    "text": "Original, public — other\nPalacios (n.d.d) — pediatric Type 1 / Type 2 diabetes EHR analysis. Code only; no patient data."
-  },
-  {
-    "objectID": "software.html#forks-working-copies-upstream-licenses",
-    "href": "software.html#forks-working-copies-upstream-licenses",
-    "title": "Software",
-    "section": "Forks (working copies; upstream licenses)",
-    "text": "Forks (working copies; upstream licenses)\nPalacios (n.d.a) — agent-based model of microbial populations exposed to radiation; used with the NASA BioSentinel and LEIA missions.\nPalacios (n.d.f) — OHNLP-based social determinants of health extraction. Companion to DOI 10.64898/2026.04.27.26351699.\nPalacios (n.d.h) — R package for gene expression variation in neurological disease."
-  },
-  {
-    "objectID": "software.html#private-cite-only",
-    "href": "software.html#private-cite-only",
-    "title": "Software",
-    "section": "Private / cite-only",
-    "text": "Private / cite-only\nPalacios (n.d.j) — private fork of LiuzLab/tch-mentormatching; available on request.\nLiuzLab evaluation repository (n.d.) — private lab repository; the link resolves for people with access. No public mirror."
-  },
-  {
-    "objectID": "software.html#full-record",
-    "href": "software.html#full-record",
-    "title": "Software",
-    "section": "Full record",
-    "text": "Full record\n\n\nLiuzLab evaluation repository, TODO(human): upstream authorship for the. n.d. “Phi-Scrubber-Evaluation.” https://github.com/LiuzLab/phi-scrubber-evaluation.\n\n\nPalacios, Daniel. n.d.a. “AMMPER.” https://github.com/DanPalBCM/AMMPER.\n\n\n———. n.d.b. “Clinical-Antepartum-Ppd-Prediction.” https://github.com/DanPalBCM/clinical-antepartum-ppd-prediction.\n\n\n———. n.d.c. “Clinical-Clinpreai-Benchmarks.” https://github.com/DanPalBCM/clinical-clinpreai-benchmarks.\n\n\n———. n.d.d. “Clinical-Diabetes-T1d-T2d.” https://github.com/DanPalBCM/clinical-diabetes-t1d-t2d.\n\n\n———. n.d.e. “Clinical-Trofinetide.” https://github.com/DanPalBCM/clinical-trofinetide.\n\n\n———. n.d.f. “MedSDoH.” https://github.com/DanPalBCM/MedSDoH.\n\n\n———. n.d.g. “Ml-Nasa-Nlp.” https://github.com/DanPalBCM/ml-nasa-nlp.\n\n\n———. n.d.h. “OverlapPlots.” https://github.com/DanPalBCM/OverlapPlots.\n\n\n———. n.d.i. “Superconducting-Diode-Effect.” https://github.com/DanPalBCM/superconducting-diode-effect.\n\n\n———. n.d.j. “Tch-Mentormatching.” https://github.com/DanPalBCM/tch-mentormatching."
-  },
-  {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
-    "section": "",
-    "text": "Every entry below is generated from publications.bib, the canonical record. Full references, with DOIs, are listed at the bottom of this page.\nManuscripts under review without a public preprint are listed as metadata only — title, authors, venue, status."
-  },
-  {
-    "objectID": "publications.html#published",
-    "href": "publications.html#published",
-    "title": "Publications",
-    "section": "Published",
-    "text": "Published\nHosur and Palacios (2023)\nPalacios and Hill (2026)\nGoulding, Palacios, et al. (2026)"
-  },
-  {
-    "objectID": "publications.html#under-review",
-    "href": "publications.html#under-review",
-    "title": "Publications",
-    "section": "Under review",
-    "text": "Under review\nAhn et al. (2026)\nPalacios et al. (2026a)\nPalacios et al. (2026b)\nPalacios et al. (TODO(human): submission year for the Trofinetide manuscript) — no public preprint; metadata only."
-  },
-  {
-    "objectID": "publications.html#preprints",
-    "href": "publications.html#preprints",
-    "title": "Publications",
-    "section": "Preprints",
-    "text": "Preprints\nNeeley et al. (2026)"
-  },
-  {
-    "objectID": "publications.html#full-reference-list",
-    "href": "publications.html#full-reference-list",
-    "title": "Publications",
-    "section": "Full reference list",
-    "text": "Full reference list\n\n\nAhn, J., S. Fu, Daniel Palacios, et al. 2026. “MedSDoH: A Rule-Based System for Social Determinants of Health Extraction from Multi-Site EHRs Based on the OHNLP Framework.” Journal of the American Medical Informatics Association. https://doi.org/10.64898/2026.04.27.26351699.\n\n\nGoulding, A. N., Daniel Palacios, et al. 2026. “Factors Associated with Postpartum Depression Symptoms Following Antepartum Hospitalization.” Pregnancy 2: e70319. https://doi.org/10.1002/pmf2.70319.\n\n\nHosur, Pavan, and Daniel Palacios. 2023. “Proximity-Induced Equilibrium Supercurrent and Perfect Superconducting Diode Effect Due to Band Asymmetry.” Physical Review B 108: 094513. https://doi.org/10.1103/PhysRevB.108.094513.\n\n\nNeeley, M. B., J. Botas, J. Jia, L. Yao, Daniel Palacios, et al. 2026. “TEDDY: A Pediatric Foundation Model for Risk Forewarning from ICD-Coded Diagnostic Histories.” arXiv preprint arXiv:2607.14191. https://doi.org/10.48550/arXiv.2607.14191.\n\n\nPalacios, Daniel et al. TODO(human): submission year for the Trofinetide manuscript. “Documenting Trofinetide Treatment Phenotypes in Rett Syndrome with a Dual-LLM Consensus Pipeline.” Journal of the American Medical Informatics Association, TODO(human): submission year for the Trofinetide manuscript.\n\n\n——— et al. 2026a. “ClinPreAI: An Agentic AI System for Early Postpartum Depression Risk Prediction from Multimodal EHR Data.” PLOS Digital Health. https://doi.org/10.1101/2025.11.14.25340265.\n\n\n——— et al. 2026b. “Institution-Specific LLM Prompting Recovers PHI That de-Identification Systems and Their Gold Standards Both Miss.” Journal of the American Medical Informatics Association. https://doi.org/10.48550/arXiv.2608.17051.\n\n\nPalacios, Daniel, and T. R. Hill. 2026. “Taxonomical Modeling and Classification in Space Hardware Failure Reporting.” Scientific Reports. https://doi.org/10.1038/s41598-026-36813-7."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Daniel Palacios",
-    "section": "",
-    "text": "Graduate Student Researcher, Liu Lab — Data Science Center, Duncan Neurological Research Institute, Texas Children’s Hospital / Baylor College of Medicine (2022–present). Advisor: Dr. Zhandong Liu.\nAI Developer and Research Design Intern, Peraton — Cyber Operations, Cyber and Intelligence Sector (2026–present, remote)."
-  },
-  {
-    "objectID": "index.html#current-positions",
-    "href": "index.html#current-positions",
-    "title": "Daniel Palacios",
-    "section": "",
-    "text": "Graduate Student Researcher, Liu Lab — Data Science Center, Duncan Neurological Research Institute, Texas Children’s Hospital / Baylor College of Medicine (2022–present). Advisor: Dr. Zhandong Liu.\nAI Developer and Research Design Intern, Peraton — Cyber Operations, Cyber and Intelligence Sector (2026–present, remote)."
-  },
-  {
-    "objectID": "index.html#about",
-    "href": "index.html#about",
-    "title": "Daniel Palacios",
-    "section": "About",
-    "text": "About\nDaniel Palacios is a Ph.D. candidate in Quantitative and Computational Biosciences at Baylor College of Medicine (2022–2027) and an NSF Graduate Research Fellow. He works in the Liu Lab at Texas Children’s Hospital’s Duncan Neurological Research Institute, where he applies AI and machine learning — LLM-powered agentic systems, multi-agent architectures, and EHR foundation models — to clinical informatics and computational biology. His projects span postpartum mental-health prediction, pediatric diabetes outcomes, treatment-response phenotyping, clinical-note de-identification, and pediatric disease-trajectory modeling. He was previously a Research Associate at NASA Ames Research Center (space radiation biology) and a Machine Learning Researcher Intern at NASA Johnson Space Center (NLP for engineering failure reports), and did undergraduate research in theoretical superconductivity at the University of Houston, where he earned a B.S. in Physics and Mathematics in 2022. His work has appeared in Physical Review B, Scientific Reports, and Pregnancy, with manuscripts under review at JAMIA and PLOS Digital Health and a preprint on arXiv."
-  },
-  {
-    "objectID": "index.html#links",
-    "href": "index.html#links",
-    "title": "Daniel Palacios",
-    "section": "Links",
-    "text": "Links\n\nCV (PDF): cv-latest.pdf\nGitHub: DanPalBCM\nLinkedIn: TODO(human): LinkedIn profile URL\nORCID: TODO(human): ORCID iD URL\nGoogle Scholar: TODO(human): Google Scholar profile URL\nEmail: Daniel.Palacios@bcm.edu\n\nHouston, Texas."
+    "text": "A few of the places I’ve been lucky enough to visit — drag the map, click a pin to see the photo."
   },
   {
     "objectID": "career.html",
@@ -166,5 +68,110 @@
     "title": "Career",
     "section": "Certifications and training",
     "text": "Certifications and training\n\nGraduate Tools and Models in Data Science — Rice University.\nMachine Learning Certificate — Hewlett Packard Enterprise Data Science Institute.\nBig Data Technology Fundamentals — Amazon Web Services / NASA.\nData Analysis Concepts — Percipio / NASA.\nETS Major Field Test in Mathematics: 198/200."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Daniel Palacios",
+    "section": "",
+    "text": "Graduate Student Researcher, Liu Lab — Data Science Center, Duncan Neurological Research Institute, Texas Children’s Hospital / Baylor College of Medicine (2022–present). Advisor: Dr. Zhandong Liu.\nAI Developer and Research Design Intern, Peraton — Cyber Operations, Cyber and Intelligence Sector (2026–present, remote)."
+  },
+  {
+    "objectID": "index.html#current-positions",
+    "href": "index.html#current-positions",
+    "title": "Daniel Palacios",
+    "section": "",
+    "text": "Graduate Student Researcher, Liu Lab — Data Science Center, Duncan Neurological Research Institute, Texas Children’s Hospital / Baylor College of Medicine (2022–present). Advisor: Dr. Zhandong Liu.\nAI Developer and Research Design Intern, Peraton — Cyber Operations, Cyber and Intelligence Sector (2026–present, remote)."
+  },
+  {
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "Daniel Palacios",
+    "section": "About",
+    "text": "About\nDaniel Palacios is a Ph.D. candidate in Quantitative and Computational Biosciences at Baylor College of Medicine (2022–2027) and an NSF Graduate Research Fellow. He works in the Liu Lab at Texas Children’s Hospital’s Duncan Neurological Research Institute, where he applies AI and machine learning — LLM-powered agentic systems, multi-agent architectures, and EHR foundation models — to clinical informatics and computational biology. His projects span postpartum mental-health prediction, pediatric diabetes outcomes, treatment-response phenotyping, clinical-note de-identification, and pediatric disease-trajectory modeling. He was previously a Research Associate at NASA Ames Research Center (space radiation biology) and a Machine Learning Researcher Intern at NASA Johnson Space Center (NLP for engineering failure reports), and did undergraduate research in theoretical superconductivity at the University of Houston, where he earned a B.S. in Physics and Mathematics in 2022. His work has appeared in Physical Review B, Scientific Reports, and Pregnancy, with manuscripts under review at JAMIA and PLOS Digital Health and a preprint on arXiv."
+  },
+  {
+    "objectID": "index.html#links",
+    "href": "index.html#links",
+    "title": "Daniel Palacios",
+    "section": "Links",
+    "text": "Links\n\nCV (PDF): cv-latest.pdf\nGitHub: DanPalBCM\nLinkedIn: TODO(human): LinkedIn profile URL\nORCID: TODO(human): ORCID iD URL\nGoogle Scholar: TODO(human): Google Scholar profile URL\nEmail: Daniel.Palacios@bcm.edu\n\nHouston, Texas."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Every entry below is generated from publications.bib, the canonical record. Full references, with DOIs, are listed at the bottom of this page.\nManuscripts under review without a public preprint are listed as metadata only — title, authors, venue, status."
+  },
+  {
+    "objectID": "publications.html#published",
+    "href": "publications.html#published",
+    "title": "Publications",
+    "section": "Published",
+    "text": "Published\nHosur and Palacios (2023)\nPalacios and Hill (2026)\nGoulding, Palacios, et al. (2026)"
+  },
+  {
+    "objectID": "publications.html#under-review",
+    "href": "publications.html#under-review",
+    "title": "Publications",
+    "section": "Under review",
+    "text": "Under review\nAhn et al. (2026)\nPalacios et al. (2026a)\nPalacios et al. (2026b)\nPalacios et al. (TODO(human): submission year for the Trofinetide manuscript) — no public preprint; metadata only."
+  },
+  {
+    "objectID": "publications.html#preprints",
+    "href": "publications.html#preprints",
+    "title": "Publications",
+    "section": "Preprints",
+    "text": "Preprints\nNeeley et al. (2026)"
+  },
+  {
+    "objectID": "publications.html#full-reference-list",
+    "href": "publications.html#full-reference-list",
+    "title": "Publications",
+    "section": "Full reference list",
+    "text": "Full reference list\n\n\nAhn, J., S. Fu, Daniel Palacios, et al. 2026. “MedSDoH: A Rule-Based System for Social Determinants of Health Extraction from Multi-Site EHRs Based on the OHNLP Framework.” Journal of the American Medical Informatics Association. https://doi.org/10.64898/2026.04.27.26351699.\n\n\nGoulding, A. N., Daniel Palacios, et al. 2026. “Factors Associated with Postpartum Depression Symptoms Following Antepartum Hospitalization.” Pregnancy 2: e70319. https://doi.org/10.1002/pmf2.70319.\n\n\nHosur, Pavan, and Daniel Palacios. 2023. “Proximity-Induced Equilibrium Supercurrent and Perfect Superconducting Diode Effect Due to Band Asymmetry.” Physical Review B 108: 094513. https://doi.org/10.1103/PhysRevB.108.094513.\n\n\nNeeley, M. B., J. Botas, J. Jia, L. Yao, Daniel Palacios, et al. 2026. “TEDDY: A Pediatric Foundation Model for Risk Forewarning from ICD-Coded Diagnostic Histories.” arXiv preprint arXiv:2607.14191. https://doi.org/10.48550/arXiv.2607.14191.\n\n\nPalacios, Daniel et al. TODO(human): submission year for the Trofinetide manuscript. “Documenting Trofinetide Treatment Phenotypes in Rett Syndrome with a Dual-LLM Consensus Pipeline.” Journal of the American Medical Informatics Association, TODO(human): submission year for the Trofinetide manuscript.\n\n\n——— et al. 2026a. “ClinPreAI: An Agentic AI System for Early Postpartum Depression Risk Prediction from Multimodal EHR Data.” PLOS Digital Health. https://doi.org/10.1101/2025.11.14.25340265.\n\n\n——— et al. 2026b. “Institution-Specific LLM Prompting Recovers PHI That de-Identification Systems and Their Gold Standards Both Miss.” Journal of the American Medical Informatics Association. https://doi.org/10.48550/arXiv.2608.17051.\n\n\nPalacios, Daniel, and T. R. Hill. 2026. “Taxonomical Modeling and Classification in Space Hardware Failure Reporting.” Scientific Reports. https://doi.org/10.1038/s41598-026-36813-7."
+  },
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software",
+    "section": "",
+    "text": "Generated from software.bib, the canonical record. Each entry’s note states whether the repository is an original or a fork, and whether it is public or private. Papers are referenced by DOI; see Publications for the full citations."
+  },
+  {
+    "objectID": "software.html#original-public-companions-to-papers",
+    "href": "software.html#original-public-companions-to-papers",
+    "title": "Software",
+    "section": "Original, public — companions to papers",
+    "text": "Original, public — companions to papers\nPalacios (n.d.c) — ClinPreAI benchmarks. Companion to DOI 10.1101/2025.11.14.25340265.\nPalacios (n.d.b) — antepartum hospitalization and postpartum depression. Companion to DOI 10.1002/pmf2.70319.\nPalacios (n.d.e) — Trofinetide / Rett syndrome phenotyping. Companion to a manuscript under review.\nPalacios (n.d.g) — space hardware failure reporting. Companion to DOI 10.1038/s41598-026-36813-7.\nPalacios (n.d.i) — asymmetric supercurrents. Companion to DOI 10.1103/PhysRevB.108.094513."
+  },
+  {
+    "objectID": "software.html#original-public-other",
+    "href": "software.html#original-public-other",
+    "title": "Software",
+    "section": "Original, public — other",
+    "text": "Original, public — other\nPalacios (n.d.d) — pediatric Type 1 / Type 2 diabetes EHR analysis. Code only; no patient data."
+  },
+  {
+    "objectID": "software.html#forks-working-copies-upstream-licenses",
+    "href": "software.html#forks-working-copies-upstream-licenses",
+    "title": "Software",
+    "section": "Forks (working copies; upstream licenses)",
+    "text": "Forks (working copies; upstream licenses)\nPalacios (n.d.a) — agent-based model of microbial populations exposed to radiation; used with the NASA BioSentinel and LEIA missions.\nPalacios (n.d.f) — OHNLP-based social determinants of health extraction. Companion to DOI 10.64898/2026.04.27.26351699.\nPalacios (n.d.h) — R package for gene expression variation in neurological disease."
+  },
+  {
+    "objectID": "software.html#private-cite-only",
+    "href": "software.html#private-cite-only",
+    "title": "Software",
+    "section": "Private / cite-only",
+    "text": "Private / cite-only\nPalacios (n.d.j) — private fork of LiuzLab/tch-mentormatching; available on request.\nLiuzLab evaluation repository (n.d.) — private lab repository; the link resolves for people with access. No public mirror."
+  },
+  {
+    "objectID": "software.html#full-record",
+    "href": "software.html#full-record",
+    "title": "Software",
+    "section": "Full record",
+    "text": "Full record\n\n\nLiuzLab evaluation repository, TODO(human): upstream authorship for the. n.d. “Phi-Scrubber-Evaluation.” https://github.com/LiuzLab/phi-scrubber-evaluation.\n\n\nPalacios, Daniel. n.d.a. “AMMPER.” https://github.com/DanPalBCM/AMMPER.\n\n\n———. n.d.b. “Clinical-Antepartum-Ppd-Prediction.” https://github.com/DanPalBCM/clinical-antepartum-ppd-prediction.\n\n\n———. n.d.c. “Clinical-Clinpreai-Benchmarks.” https://github.com/DanPalBCM/clinical-clinpreai-benchmarks.\n\n\n———. n.d.d. “Clinical-Diabetes-T1d-T2d.” https://github.com/DanPalBCM/clinical-diabetes-t1d-t2d.\n\n\n———. n.d.e. “Clinical-Trofinetide.” https://github.com/DanPalBCM/clinical-trofinetide.\n\n\n———. n.d.f. “MedSDoH.” https://github.com/DanPalBCM/MedSDoH.\n\n\n———. n.d.g. “Ml-Nasa-Nlp.” https://github.com/DanPalBCM/ml-nasa-nlp.\n\n\n———. n.d.h. “OverlapPlots.” https://github.com/DanPalBCM/OverlapPlots.\n\n\n———. n.d.i. “Superconducting-Diode-Effect.” https://github.com/DanPalBCM/superconducting-diode-effect.\n\n\n———. n.d.j. “Tch-Mentormatching.” https://github.com/DanPalBCM/tch-mentormatching."
   }
 ]

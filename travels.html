@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Daniel Palacios</title>
+<title>Travels – Daniel Palacios</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -90,7 +90,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
@@ -106,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Career</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./travels.html"> 
+    <a class="nav-link active" href="./travels.html" aria-current="page"> 
 <span class="menu-text">Travels</span></a>
   </li>  
   <li class="nav-item">
@@ -128,32 +128,21 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul class="collapse">
-  <li><a href="#current-positions" id="toc-current-positions" class="nav-link active" data-scroll-target="#current-positions">Current positions</a></li>
-  <li><a href="#about" id="toc-about" class="nav-link" data-scroll-target="#about">About</a></li>
-  <li><a href="#links" id="toc-links" class="nav-link" data-scroll-target="#links">Links</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Daniel Palacios</h1>
-<p class="subtitle lead">Ph.D.&nbsp;candidate, Quantitative and Computational Biosciences</p>
+<h1 class="title">Travels</h1>
 </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -165,30 +154,79 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<!-- TODO(human): add a headshot at assets/img/headshot.jpg, then uncomment: ![](assets/img/headshot.jpg){.headshot width=200} -->
-<section id="current-positions" class="level2">
-<h2 class="anchored" data-anchor-id="current-positions">Current positions</h2>
-<p>Graduate Student Researcher, Liu Lab — Data Science Center, Duncan Neurological Research Institute, Texas Children’s Hospital / Baylor College of Medicine (2022–present). Advisor: Dr.&nbsp;Zhandong Liu.</p>
-<p>AI Developer and Research Design Intern, Peraton — Cyber Operations, Cyber and Intelligence Sector (2026–present, remote).</p>
-</section>
-<section id="about" class="level2">
-<h2 class="anchored" data-anchor-id="about">About</h2>
-<p>Daniel Palacios is a Ph.D.&nbsp;candidate in Quantitative and Computational Biosciences at Baylor College of Medicine (2022–2027) and an NSF Graduate Research Fellow. He works in the Liu Lab at Texas Children’s Hospital’s Duncan Neurological Research Institute, where he applies AI and machine learning — LLM-powered agentic systems, multi-agent architectures, and EHR foundation models — to clinical informatics and computational biology. His projects span postpartum mental-health prediction, pediatric diabetes outcomes, treatment-response phenotyping, clinical-note de-identification, and pediatric disease-trajectory modeling. He was previously a Research Associate at NASA Ames Research Center (space radiation biology) and a Machine Learning Researcher Intern at NASA Johnson Space Center (NLP for engineering failure reports), and did undergraduate research in theoretical superconductivity at the University of Houston, where he earned a B.S. in Physics and Mathematics in 2022. His work has appeared in Physical Review B, Scientific Reports, and Pregnancy, with manuscripts under review at JAMIA and PLOS Digital Health and a preprint on arXiv.</p>
-</section>
-<section id="links" class="level2">
-<h2 class="anchored" data-anchor-id="links">Links</h2>
-<ul>
-<li>CV (PDF): <a href="assets/cv/cv-latest.pdf">cv-latest.pdf</a></li>
-<li>GitHub: <a href="https://github.com/DanPalBCM">DanPalBCM</a></li>
-<li>LinkedIn: TODO(human): LinkedIn profile URL</li>
-<li>ORCID: TODO(human): ORCID iD URL</li>
-<li>Google Scholar: TODO(human): Google Scholar profile URL</li>
-<li>Email: Daniel.Palacios@bcm.edu</li>
-</ul>
-<p>Houston, Texas.</p>
+<p><link rel="stylesheet" href="assets/vendor/leaflet/leaflet.css"></p>
+<style>
+#travel-map {
+  height: 72vh;
+  min-height: 480px;
+  width: 100%;
+  border-radius: 10px;
+  z-index: 1;
+}
+.travel-popup img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 6px;
+  margin-top: 6px;
+  display: block;
+}
+.travel-popup .city {
+  font-size: 1.05em;
+}
+</style>
+<p>A few of the places I’ve been lucky enough to visit — drag the map, click a pin to see the photo.</p>
+<div id="travel-map">
+
+</div>
+<script src="assets/vendor/leaflet/leaflet.js"></script>
+<script>
+(function () {
+  var map = L.map('travel-map', { worldCopyJump: true }).setView([32, 10], 2);
+
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 18,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+
+  var places = [
+    { name: "Austin",        country: "USA",    lat: 30.2672,  lng: -97.7431,  img: "austin.jpg" },
+    { name: "Boston",       country: "USA",    lat: 42.3601,  lng: -71.0589,  img: "boston.jpg" },
+    { name: "Cancun",       country: "Mexico", lat: 21.1619,  lng: -86.8515,  img: "cancun.jpg" },
+    { name: "Chengdu",      country: "China",  lat: 30.5728,  lng: 104.0668,  img: "chengdu.jpg" },
+    { name: "Chongqing",    country: "China",  lat: 29.5630,  lng: 106.5516,  img: "chongqing.jpg" },
+    { name: "Galveston",    country: "USA",    lat: 29.3013,  lng: -94.7977,  img: "galveston.jpg" },
+    { name: "Hong Kong",    country: "China",  lat: 22.3193,  lng: 114.1694,  img: "hong-kong.jpg" },
+    { name: "Los Angeles",  country: "USA",    lat: 34.0522,  lng: -118.2437, img: "los-angeles.jpg" },
+    { name: "Macao",        country: "China",  lat: 22.1987,  lng: 113.5439,  img: "macao.jpg" },
+    { name: "Monterrey",    country: "Mexico", lat: 25.6866,  lng: -100.3161, img: "monterrey.jpg" },
+    { name: "New York",     country: "USA",    lat: 40.7128,  lng: -74.0060,  img: "new-york.jpg" },
+    { name: "Shanghai",     country: "China",  lat: 31.2304,  lng: 121.4737,  img: "shanghai.jpg" },
+    { name: "Shenzhen",     country: "China",  lat: 22.5431,  lng: 114.0579,  img: "shenzhen.jpg" },
+    { name: "Tokyo",        country: "Japan",  lat: 35.6762,  lng: 139.6503,  img: "tokyo.jpg" },
+    { name: "Vancouver",    country: "Canada", lat: 49.2827,  lng: -123.1207, img: "vancouver.jpg" },
+    { name: "Xi'an",        country: "China",  lat: 34.3416,  lng: 108.9398,  img: "xian.jpg" }
+  ];
+
+  places.forEach(function (p) {
+    var marker = L.circleMarker([p.lat, p.lng], {
+      radius: 8,
+      color: '#0d6efd',
+      weight: 2,
+      fillColor: '#0d6efd',
+      fillOpacity: 0.7
+    }).addTo(map);
+    marker.bindPopup(
+      '<div class="travel-popup">' +
+        '<span class="city"><strong>' + p.name + '</strong>, ' + p.country + '</span>' +
+        '<img src="assets/img/travel/' + p.img + '" alt="' + p.name + '" loading="lazy"/>' +
+      '</div>',
+      { maxWidth: 320 }
+    );
+  });
+})();
+</script>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
