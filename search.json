@@ -1,52 +1,24 @@
 [
   {
-    "objectID": "travels.html",
-    "href": "travels.html",
-    "title": "Travels",
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software",
     "section": "",
-    "text": "A few of the places I’ve been lucky enough to visit — drag the map, click a pin to see the photo."
+    "text": "Agent-based model of microbial cell populations exposed to ionizing deep-space radiation, developed in the NASA Ames Space Biosciences Division and validated against BioSentinel mission data. Later extended with gamma-radiation and metabolic-dye dynamics and a 3D free-radical diffusion model.\nCode · Fork\n\n\n\nRetrieval-augmented generation system that matches a mentee with Texas Children’s Hospital mentors from a CV or an interest description. Private fork; available on request.\nCode\n\n\n\nR package for analyzing gene expression variations in neurological diseases, particularly synaptic dysfunction.\nCode"
   },
   {
-    "objectID": "career.html",
-    "href": "career.html",
-    "title": "Career",
+    "objectID": "software.html#featured",
+    "href": "software.html#featured",
+    "title": "Software",
     "section": "",
-    "text": "Ph.D., Quantitative & Computational Biosciences — Baylor College of Medicine, 2022–2027 NSF Graduate Research Fellow (2024); NLM Fellow (2023); Dean’s Award of Excellence (2024)\nB.S., Physics & Mathematics (double major) — University of Houston, 2018–2022 GPA 3.95/4.00, magna cum laude; Dean’s Distinguished Scholar (2018–2022)"
+    "text": "Agent-based model of microbial cell populations exposed to ionizing deep-space radiation, developed in the NASA Ames Space Biosciences Division and validated against BioSentinel mission data. Later extended with gamma-radiation and metabolic-dye dynamics and a 3D free-radical diffusion model.\nCode · Fork\n\n\n\nRetrieval-augmented generation system that matches a mentee with Texas Children’s Hospital mentors from a CV or an interest description. Private fork; available on request.\nCode\n\n\n\nR package for analyzing gene expression variations in neurological diseases, particularly synaptic dysfunction.\nCode"
   },
   {
-    "objectID": "career.html#education",
-    "href": "career.html#education",
-    "title": "Career",
-    "section": "",
-    "text": "Ph.D., Quantitative & Computational Biosciences — Baylor College of Medicine, 2022–2027 NSF Graduate Research Fellow (2024); NLM Fellow (2023); Dean’s Award of Excellence (2024)\nB.S., Physics & Mathematics (double major) — University of Houston, 2018–2022 GPA 3.95/4.00, magna cum laude; Dean’s Distinguished Scholar (2018–2022)"
-  },
-  {
-    "objectID": "career.html#experience",
-    "href": "career.html#experience",
-    "title": "Career",
-    "section": "Experience",
-    "text": "Experience\nAI Developer and Research Design Intern — Peraton, Reston, VA (Remote), Aug 2026–present\nGraduate Student Researcher — Baylor College of Medicine / Texas Children’s Hospital, Houston, TX, 2022–present\nResearch Associate — NASA Ames Research Center, Mountain View, CA, May–Aug 2022\nMachine Learning Researcher Intern — NASA Johnson Space Center, Houston, TX, 2021–2022\nUndergraduate Researcher — University of Houston, Houston, TX, 2020–2021"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Daniel Palacios",
-    "section": "",
-    "text": "Ph.D. candidate in Quantitative & Computational Biosciences, Baylor College of Medicine · Houston, Texas"
-  },
-  {
-    "objectID": "index.html#about",
-    "href": "index.html#about",
-    "title": "Daniel Palacios",
-    "section": "About",
-    "text": "About\nDaniel Palacios is a PhD student in Quantitative and Computational Biosciences whose research focuses on developing agentic AI systems for clinical outcomes prediction. His work combines foundation models, automated machine learning, and rigorous statistical validation to extract actionable insights from electronic health records at scale.\nHis research spans postpartum mental health prediction, pediatric epilepsy and diabetes analysis, and rare disease phenotyping across 50,000+ patients. He developed ClinPreAI, an agentic AI system for postpartum depression risk prediction using multimodal EHR data, which has resulted in publications and awards including a BCM Seed Grant and dkNET NIDDK Grant. Daniel has extensive experience handling large-scale medical datasets and performing data curation across AWS and Palantir Foundry platforms. His technical work emphasizes the practical deployment of AI systems with clinical validation.\nPrior to his doctoral work, Daniel contributed to NASA space biology research, developing the AMMPER agent-based model for simulating microbial radiation exposure and building NLP taxonomy systems for space hardware failure analysis at NASA Johnson Space Center. His work has been disseminated through publications and 20+ conference presentations, with open-source software contributions spanning space biology and clinical informatics.\nAs an NSF Graduate Research Fellow and NLM Fellow, Daniel continues to advance the application of AI to healthcare’s most challenging data integration and prediction problems, bridging computational innovation with clinical deployment."
-  },
-  {
-    "objectID": "index.html#links",
-    "href": "index.html#links",
-    "title": "Daniel Palacios",
-    "section": "Links",
-    "text": "Links\n\nCV (PDF): cv-latest.pdf\nGitHub: DanPalBCM\nLinkedIn: daniel-palacios-506734224\nORCID: 0000-0001-9608-3311\nEmail: Daniel.Palacios@bcm.edu"
+    "objectID": "software.html#more-software",
+    "href": "software.html#more-software",
+    "title": "Software",
+    "section": "More software",
+    "text": "More software\n\n\n\nProject\nDescription\n\n\n\n\nclinical-clinpreai-benchmarks\nCompanion code for ClinPreAI.\n\n\nclinical-antepartum-ppd-prediction\nCompanion code for the Pregnancy 2026 paper. Code only; no patient data.\n\n\nclinical-trofinetide\nCompanion code for the trofinetide / Rett syndrome phenotyping manuscript (under review). Code only; no patient data.\n\n\nml-nasa-nlp\nCompanion code for the Scientific Reports 2026 paper.\n\n\nsuperconducting-diode-effect\nCompanion code for the Physical Review B 2023 paper.\n\n\nclinical-diabetes-t1d-t2d\nPediatric Type 1 / Type 2 diabetes EHR analysis code. Code only; no patient data.\n\n\nMedSDoH (fork)\nOHNLP-based social determinants of health extraction; companion to the MedSDoH manuscript.\n\n\nphi-scrubber-evaluation (private)\nEvaluation code for the de-identification benchmark manuscript. Private lab repository; no public mirror."
   },
   {
     "objectID": "publications.html",
@@ -77,24 +49,52 @@
     "text": "Preprints\nNeeley, M. B., Botas, J., Jia, J., Yao, L., Palacios, D., et al. (2026). TEDDY: A pediatric foundation model for risk forewarning from ICD-coded diagnostic histories. arXiv. https://doi.org/10.48550/arXiv.2607.14191"
   },
   {
-    "objectID": "software.html",
-    "href": "software.html",
-    "title": "Software",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Daniel Palacios",
     "section": "",
-    "text": "Agent-based model of microbial cell populations exposed to ionizing deep-space radiation, developed in the NASA Ames Space Biosciences Division and validated against BioSentinel mission data. Later extended with gamma-radiation and metabolic-dye dynamics and a 3D free-radical diffusion model.\nCode · Fork\n\n\n\nRetrieval-augmented generation system that matches a mentee with Texas Children’s Hospital mentors from a CV or an interest description. Private fork; available on request.\nCode\n\n\n\nR package for analyzing gene expression variations in neurological diseases, particularly synaptic dysfunction.\nCode"
+    "text": "Ph.D. candidate in Quantitative & Computational Biosciences, Baylor College of Medicine · Houston, Texas"
   },
   {
-    "objectID": "software.html#featured",
-    "href": "software.html#featured",
-    "title": "Software",
-    "section": "",
-    "text": "Agent-based model of microbial cell populations exposed to ionizing deep-space radiation, developed in the NASA Ames Space Biosciences Division and validated against BioSentinel mission data. Later extended with gamma-radiation and metabolic-dye dynamics and a 3D free-radical diffusion model.\nCode · Fork\n\n\n\nRetrieval-augmented generation system that matches a mentee with Texas Children’s Hospital mentors from a CV or an interest description. Private fork; available on request.\nCode\n\n\n\nR package for analyzing gene expression variations in neurological diseases, particularly synaptic dysfunction.\nCode"
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "Daniel Palacios",
+    "section": "About",
+    "text": "About\nDaniel Palacios is a PhD student in Quantitative and Computational Biosciences whose research focuses on developing agentic AI systems for clinical outcomes prediction. His work combines foundation models, automated machine learning, and rigorous statistical validation to extract actionable insights from electronic health records at scale.\nHis research spans postpartum mental health prediction, pediatric epilepsy and diabetes analysis, and rare disease phenotyping across 50,000+ patients. He developed ClinPreAI, an agentic AI system for postpartum depression risk prediction using multimodal EHR data, which has resulted in publications and awards including a BCM Seed Grant and dkNET NIDDK Grant. Daniel has extensive experience handling large-scale medical datasets and performing data curation across AWS and Palantir Foundry platforms. His technical work emphasizes the practical deployment of AI systems with clinical validation.\nPrior to his doctoral work, Daniel contributed to NASA space biology research, developing the AMMPER agent-based model for simulating microbial radiation exposure and building NLP taxonomy systems for space hardware failure analysis at NASA Johnson Space Center. His work has been disseminated through publications and 20+ conference presentations, with open-source software contributions spanning space biology and clinical informatics.\nAs an NSF Graduate Research Fellow and NLM Fellow, Daniel continues to advance the application of AI to healthcare’s most challenging data integration and prediction problems, bridging computational innovation with clinical deployment."
   },
   {
-    "objectID": "software.html#more-software",
-    "href": "software.html#more-software",
-    "title": "Software",
-    "section": "More software",
-    "text": "More software\n\n\n\nProject\nDescription\n\n\n\n\nclinical-clinpreai-benchmarks\nCompanion code for ClinPreAI.\n\n\nclinical-antepartum-ppd-prediction\nCompanion code for the Pregnancy 2026 paper. Code only; no patient data.\n\n\nclinical-trofinetide\nCompanion code for the trofinetide / Rett syndrome phenotyping manuscript (under review). Code only; no patient data.\n\n\nml-nasa-nlp\nCompanion code for the Scientific Reports 2026 paper.\n\n\nsuperconducting-diode-effect\nCompanion code for the Physical Review B 2023 paper.\n\n\nclinical-diabetes-t1d-t2d\nPediatric Type 1 / Type 2 diabetes EHR analysis code. Code only; no patient data.\n\n\nMedSDoH (fork)\nOHNLP-based social determinants of health extraction; companion to the MedSDoH manuscript.\n\n\nphi-scrubber-evaluation (private)\nEvaluation code for the de-identification benchmark manuscript. Private lab repository; no public mirror."
+    "objectID": "index.html#links",
+    "href": "index.html#links",
+    "title": "Daniel Palacios",
+    "section": "Links",
+    "text": "Links\n\nCV (PDF): cv-latest.pdf\nGitHub: DanPalBCM\nLinkedIn: daniel-palacios-506734224\nORCID: 0000-0001-9608-3311\nEmail: Daniel.Palacios@bcm.edu"
+  },
+  {
+    "objectID": "travels.html",
+    "href": "travels.html",
+    "title": "Travels",
+    "section": "",
+    "text": "A few of the places I’ve been lucky enough to visit — drag the map, click a pin to see the photo."
+  },
+  {
+    "objectID": "career.html",
+    "href": "career.html",
+    "title": "Career",
+    "section": "",
+    "text": "Ph.D., Quantitative & Computational Biosciences — Baylor College of Medicine, 2022–2027 NSF Graduate Research Fellow (2024); NLM Fellow (2023); Dean’s Award of Excellence (2024)\nB.S., Physics & Mathematics (double major) — University of Houston, 2018–2022 GPA 3.95/4.00, magna cum laude; Dean’s Distinguished Scholar (2018–2022)"
+  },
+  {
+    "objectID": "career.html#education",
+    "href": "career.html#education",
+    "title": "Career",
+    "section": "",
+    "text": "Ph.D., Quantitative & Computational Biosciences — Baylor College of Medicine, 2022–2027 NSF Graduate Research Fellow (2024); NLM Fellow (2023); Dean’s Award of Excellence (2024)\nB.S., Physics & Mathematics (double major) — University of Houston, 2018–2022 GPA 3.95/4.00, magna cum laude; Dean’s Distinguished Scholar (2018–2022)"
+  },
+  {
+    "objectID": "career.html#experience",
+    "href": "career.html#experience",
+    "title": "Career",
+    "section": "Experience",
+    "text": "Experience\nAI Developer and Research Design Intern — Peraton, Reston, VA (Remote), Aug 2026–present\nGraduate Student Researcher — Baylor College of Medicine / Texas Children’s Hospital, Houston, TX, 2022–present\nResearch Associate — NASA Ames Research Center, Mountain View, CA, May–Aug 2022\nMachine Learning Researcher Intern — NASA Johnson Space Center, Houston, TX, 2021–2022\nUndergraduate Researcher — University of Houston, Houston, TX, 2020–2021"
   }
 ]
