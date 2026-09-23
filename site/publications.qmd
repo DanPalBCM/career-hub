@@ -1,47 +1,25 @@
 ---
 title: "Publications"
-bibliography: ../publications.bib
-nocite: |
-  @*
 ---
-
-Every entry below is generated from
-[publications.bib](https://github.com/DanPalBCM/career-hub/blob/main/publications.bib),
-the canonical record. Full references, with DOIs, are listed at the bottom of
-this page.
-
-Manuscripts under review without a public preprint are listed as metadata
-only — title, authors, venue, status.
 
 ## Published
 
-@hosur2023prb
+Hosur, P., & Palacios, D. (2023). Proximity-induced equilibrium supercurrent and perfect superconducting diode effect due to band asymmetry. *Physical Review B*, *108*, 094513. [https://doi.org/10.1103/PhysRevB.108.094513](https://doi.org/10.1103/PhysRevB.108.094513)
 
-@palacios2026scirep
+Palacios, D., & Hill, T. R. (2026). Taxonomical modeling and classification in space hardware failure reporting. *Scientific Reports*. [https://doi.org/10.1038/s41598-026-36813-7](https://doi.org/10.1038/s41598-026-36813-7)
 
-@goulding2026pregnancy
+Goulding, A. N., Palacios, D., et al. (2026). Factors associated with postpartum depression symptoms following antepartum hospitalization. *Pregnancy*, *2*, e70319. [https://doi.org/10.1002/pmf2.70319](https://doi.org/10.1002/pmf2.70319)
 
 ## Under review
 
-@ahn2026medsdoh
+Ahn, J., Fu, S., Palacios, D., et al. MedSDoH: A rule-based system for social determinants of health extraction from multi-site EHRs based on the OHNLP framework. *Journal of the American Medical Informatics Association* (under review, amiajnl-2025-018748). [https://doi.org/10.64898/2026.04.27.26351699](https://doi.org/10.64898/2026.04.27.26351699)
 
-@palacios2026clinpreai
+Palacios, D., et al. ClinPreAI: An agentic AI system for early postpartum depression risk prediction from multimodal EHR data. *PLOS Digital Health* (under review). Preprint: [https://doi.org/10.1101/2025.11.14.25340265](https://doi.org/10.1101/2025.11.14.25340265)
 
-@palacios2026phi
+Palacios, D., et al. Institution-specific LLM prompting recovers PHI that de-identification systems and their gold standards both miss. *Journal of the American Medical Informatics Association* (under review). Preprint: [https://doi.org/10.48550/arXiv.2608.17051](https://doi.org/10.48550/arXiv.2608.17051)
 
-@palacios-trofinetide — no public preprint; metadata only.
+Palacios, D., et al. Documenting trofinetide treatment phenotypes in Rett syndrome with a dual-LLM consensus pipeline. *Journal of the American Medical Informatics Association* (under review).
 
 ## Preprints
 
-@neeley2026teddy
-
-## Full reference list
-
-::: {#refs}
-:::
-
-<!-- TODO(human): if you want three separate, fully formatted reference lists
-rather than one combined list, add the pandoc `multibib` Lua filter to the
-project and give each section its own `refs-*` div. Pandoc supports only one
-`#refs` div natively, which is why the sections above use citation links into
-a single list. -->
+Neeley, M. B., Botas, J., Jia, J., Yao, L., Palacios, D., et al. (2026). TEDDY: A pediatric foundation model for risk forewarning from ICD-coded diagnostic histories. *arXiv*. [https://doi.org/10.48550/arXiv.2607.14191](https://doi.org/10.48550/arXiv.2607.14191)

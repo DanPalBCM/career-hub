@@ -1,58 +1,36 @@
 ---
 title: "Software"
-bibliography: ../software.bib
-nocite: |
-  @*
 ---
 
-Generated from
-[software.bib](https://github.com/DanPalBCM/career-hub/blob/main/software.bib),
-the canonical record. Each entry's note states whether the repository is an
-original or a fork, and whether it is public or private. Papers are referenced
-by DOI; see [Publications](publications.qmd) for the full citations.
+## Featured
 
-## Original, public — companions to papers
+### [AMMPER](https://github.com/nasa/AMMPER)
 
-@sw-clinical-clinpreai-benchmarks — ClinPreAI benchmarks.
-Companion to DOI 10.1101/2025.11.14.25340265.
+Agent-based model of microbial cell populations exposed to ionizing deep-space radiation, developed in the NASA Ames Space Biosciences Division and validated against BioSentinel mission data. Later extended with gamma-radiation and metabolic-dye dynamics and a 3D free-radical diffusion model.
 
-@sw-clinical-antepartum-ppd-prediction — antepartum hospitalization and
-postpartum depression. Companion to DOI 10.1002/pmf2.70319.
+[Code](https://github.com/nasa/AMMPER) · [Fork](https://github.com/DanPalBCM/AMMPER)
 
-@sw-clinical-trofinetide — Trofinetide / Rett syndrome phenotyping.
-Companion to a manuscript under review.
+### [Texas Children's Hospital Mentor Matching](https://github.com/DanPalBCM/tch-mentormatching) *(private)*
 
-@sw-ml-nasa-nlp — space hardware failure reporting.
-Companion to DOI 10.1038/s41598-026-36813-7.
+Retrieval-augmented generation system that matches a mentee with Texas Children's Hospital mentors from a CV or an interest description. Private fork; available on request.
 
-@sw-superconducting-diode-effect — asymmetric supercurrents.
-Companion to DOI 10.1103/PhysRevB.108.094513.
+[Code](https://github.com/DanPalBCM/tch-mentormatching)
 
-## Original, public — other
+### [OverlapPlots](https://github.com/DanPalBCM/OverlapPlots) *(fork)*
 
-@sw-clinical-diabetes-t1d-t2d — pediatric Type 1 / Type 2 diabetes EHR
-analysis. Code only; no patient data.
+R package for analyzing gene expression variations in neurological diseases, particularly synaptic dysfunction.
 
-## Forks (working copies; upstream licenses)
+[Code](https://github.com/DanPalBCM/OverlapPlots)
 
-@sw-ammper — agent-based model of microbial populations exposed to radiation;
-used with the NASA BioSentinel and LEIA missions.
+## More software
 
-@sw-medsdoh — OHNLP-based social determinants of health extraction.
-Companion to DOI 10.64898/2026.04.27.26351699.
-
-@sw-overlapplots — R package for gene expression variation in neurological
-disease.
-
-## Private / cite-only
-
-@sw-tch-mentormatching — private fork of LiuzLab/tch-mentormatching;
-available on request.
-
-@sw-phi-scrubber-evaluation — private lab repository; the link resolves for
-people with access. No public mirror.
-
-## Full record
-
-::: {#refs}
-:::
+| Project | Description |
+|---|---|
+| [clinical-clinpreai-benchmarks](https://github.com/DanPalBCM/clinical-clinpreai-benchmarks) | Companion code for [ClinPreAI](https://doi.org/10.1101/2025.11.14.25340265). |
+| [clinical-antepartum-ppd-prediction](https://github.com/DanPalBCM/clinical-antepartum-ppd-prediction) | Companion code for the [Pregnancy 2026 paper](https://doi.org/10.1002/pmf2.70319). Code only; no patient data. |
+| [clinical-trofinetide](https://github.com/DanPalBCM/clinical-trofinetide) | Companion code for the trofinetide / Rett syndrome phenotyping manuscript (under review). Code only; no patient data. |
+| [ml-nasa-nlp](https://github.com/DanPalBCM/ml-nasa-nlp) | Companion code for the [Scientific Reports 2026 paper](https://doi.org/10.1038/s41598-026-36813-7). |
+| [superconducting-diode-effect](https://github.com/DanPalBCM/superconducting-diode-effect) | Companion code for the [Physical Review B 2023 paper](https://doi.org/10.1103/PhysRevB.108.094513). |
+| [clinical-diabetes-t1d-t2d](https://github.com/DanPalBCM/clinical-diabetes-t1d-t2d) | Pediatric Type 1 / Type 2 diabetes EHR analysis code. Code only; no patient data. |
+| [MedSDoH](https://github.com/DanPalBCM/MedSDoH) *(fork)* | OHNLP-based social determinants of health extraction; companion to the [MedSDoH manuscript](https://doi.org/10.64898/2026.04.27.26351699). |
+| [phi-scrubber-evaluation](https://github.com/LiuzLab/phi-scrubber-evaluation) *(private)* | Evaluation code for the [de-identification benchmark manuscript](https://doi.org/10.48550/arXiv.2608.17051). Private lab repository; no public mirror. |
