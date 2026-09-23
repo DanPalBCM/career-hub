@@ -54,6 +54,7 @@ pin to see the photo.
     { name: "Los Angeles",  country: "USA",    lat: 34.0522,  lng: -118.2437, img: "los-angeles.jpg" },
     { name: "Macao",        country: "China",  lat: 22.1987,  lng: 113.5439,  img: "macao.jpg" },
     { name: "Monterrey",    country: "Mexico", lat: 25.6866,  lng: -100.3161, img: "monterrey.jpg" },
+    { name: "Minneapolis",  country: "USA",    lat: 44.9778,  lng: -93.2650,  img: "minneapolis.jpg" },
     { name: "New York",     country: "USA",    lat: 40.7128,  lng: -74.0060,  img: "new-york.jpg" },
     { name: "Shanghai",     country: "China",  lat: 31.2304,  lng: 121.4737,  img: "shanghai.jpg" },
     { name: "Shenzhen",     country: "China",  lat: 22.5431,  lng: 114.0579,  img: "shenzhen.jpg" },
