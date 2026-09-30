@@ -11,10 +11,10 @@ Daniel Palacios is an applied AI research scientist and PhD candidate in Quantit
 
 Most of his work is where large language models meet electronic health records. Clinical data is split between structured tables and free-text notes, and the questions that matter rarely fit a single model. He approaches this from several angles:
 
-- **Prediction:** agentic and multi-agent LLM systems that plan, code, debug, and interpret their own analyses — applied to early postpartum depression risk (ClinPreAI) and pediatric diabetes clinical reasoning, benchmarked against classical ML and deep learning.
+- **Prediction:** agentic and multi-agent LLM systems that plan, code, debug, and interpret their own analyses — applied to early postpartum depression risk and pediatric diabetes clinical reasoning, benchmarked against classical ML and deep learning.
 - **Extraction:** LLM consensus pipelines that pull treatment-response phenotypes from clinical notes for rare disease research.
 - **Privacy:** evaluating LLMs for clinical-note de-identification, including a new category of context-dependent privacy risk ("institutionally-situated PHI").
-- **Foundation models:** contributing to TEDDY, a generative pediatric EHR foundation model trained on data from millions of children.
+- **Foundation models:** contributing to a generative pediatric EHR foundation model trained on data from millions of children.
 
 Underneath it all is data engineering: large-scale PySpark pipelines over standardized EHR data (OMOP CDM, Epic Clarity) on Palantir Foundry and AWS.
 
