@@ -20,7 +20,7 @@ Underneath it all is data engineering: large-scale PySpark pipelines over standa
 
 Daniel is also an AI Developer and Research Design Intern at Peraton, where he builds LLM and multi-agent software and designs controlled experiments on how system design choices affect performance and reliability.
 
-His path started in physics and mathematics at the University of Houston (B.S., magna cum laude, 2022), then NASA Ames and Johnson Space Center — radiation biology modeling and NLP for engineering failure analysis — with theoretical superconductivity research published in Physical Review B. That background shapes how he works: careful experimental design, rigorous evaluation, systems built to be trusted.
+His path started in physics and mathematics at the University of Houston (B.S., magna cum laude, 2022), where his theoretical research on asymmetric superconductivity was published in Physical Review B. At NASA Ames Research Center, he built an agent-based model of radiation damage in microbial cells, validated against BioSentinel mission data. At NASA Johnson Space Center, he applied NLP to engineering failure reports, building a taxonomy for space-hardware failure analysis. That background shapes how he works: careful experimental design, rigorous evaluation, systems built to be trusted.
 
 An NSF Graduate Research Fellow and NLM Fellow, Daniel has received Baylor's Dean's Award of Excellence and an Outstanding TA award. His work has been disseminated through peer-reviewed publications and 20+ conference presentations.
 
