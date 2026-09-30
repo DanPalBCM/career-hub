@@ -7,22 +7,23 @@ subtitle: "Applied AI Research Scientist"
 
 ## About
 
-Daniel Palacios is an applied AI research scientist and PhD candidate in Quantitative & Computational Biosciences at Baylor College of Medicine, advised by Dr. Zhandong Liu in the Liu Lab at the Data Science Center, Texas Children's Hospital. His expertise is building AI systems that turn messy, real-world clinical data into answers people can act on — the full pipeline from raw records to validated results.
+Daniel Palacios is an applied AI research scientist and PhD candidate in Quantitative & Computational Biosciences at Baylor College of Medicine, advised by Dr. Zhandong Liu in the Liu Lab at the Data Science Center, Texas Children's Hospital. He builds AI systems that turn messy, real-world data into answers people can act on, owning the full pipeline from raw records to validated results.
 
-His day-to-day research falls into four areas:
+His research spans four areas:
 
-- **Clinical outcome prediction:** designing AI agents and LLM systems that plan, code, debug, and interpret their own analyses to predict patient outcomes — postpartum depression risk (ClinPreAI), pediatric diabetes complications (CEDAR) — benchmarked against classical machine learning and deep learning.
-- **Entity extraction:** pulling structure out of clinical text with LLMs — treatment-response phenotypes for rare disease research, and PHI scrubbing for clinical-note de-identification.
-- **Foundation models:** training transformer-based models on electronic health records, including a generative pediatric EHR foundation model (TEDDY) trained on data from millions of children.
-- **End-to-end data analysis:** raw data to ML-ready — data curation, large-scale pipelines, and biomedical statistics (risk factors, odds and hazard ratios, clustering), so analyses are rigorous before any model is trained.
+**Clinical outcome prediction.** He designs AI agents and LLM systems that predict patient outcomes and explain their reasoning through interpretable reports, with applications in postpartum depression risk and pediatric diabetes complications. These systems are benchmarked against classical machine learning and deep learning models.
 
-The throughline is data: large-scale PySpark pipelines over standardized EHR data (OMOP CDM, Epic Clarity) on Palantir Foundry and AWS, feeding validated analyses and models.
+**Entity extraction.** He uses LLMs, from agentic workflows to hybrid rule-and-model pipelines, to pull structure from clinical text, ranging from treatment-response phenotypes in rare disease research to PHI scrubbing for clinical-note de-identification.
 
-Daniel is also an AI Developer and Research Design Intern at Peraton, where he builds LLM and multi-agent software and designs controlled experiments on how system design choices affect performance and reliability.
+**Foundation models.** He trains transformer-based models on electronic health records, including TEDDY, a generative pediatric EHR foundation model trained on data from millions of children.
 
-His path started in physics and mathematics at the University of Houston (B.S., magna cum laude, 2022), where his theoretical research on asymmetric superconductivity was published in Physical Review B. At NASA Ames Research Center, he built an agent-based model of radiation damage in microbial cells, validated against BioSentinel mission data. At NASA Johnson Space Center, he applied NLP to engineering failure reports, building a taxonomy for space-hardware failure analysis. That background shapes how he works: careful experimental design, rigorous evaluation, systems built to be trusted.
+**End-to-end data analysis.** He takes raw data to ML-ready through data curation, biomedical statistics (risk factors, odds and hazard ratios, clustering), and large-scale PySpark pipelines over standardized EHR data (OMOP CDM, Epic Clarity) on Palantir Foundry and AWS, so analyses are rigorous before any model is trained.
 
-An NSF Graduate Research Fellow and NLM Fellow, Daniel has received Baylor's Dean's Award of Excellence and an Outstanding TA award. His work has been disseminated through peer-reviewed publications and 20+ conference presentations.
+Daniel is also an AI Developer and Research Design Intern at Peraton, where he builds LLM and multi-agent software and designs controlled experiments to test how system design choices affect performance and reliability.
+
+His path to AI has run through a wide range of scientific fields. As an undergraduate in physics and mathematics at the University of Houston, he modeled gene-regulatory dynamics and cell-fate decisions in bacteriophage lambda at Rice University's Center for Theoretical Biological Physics, simulated quark-gluon plasma in heavy-ion collisions and validated the results against CERN ALICE data, and developed theory on asymmetric superconductivity that was published in Physical Review B. At NASA Johnson Space Center, he applied NLP to engineering failure reports to build a taxonomy for space-hardware failure analysis, and at NASA Ames Research Center, he built an agent-based model of radiation damage in microbial cells, validated against BioSentinel mission data. Across biophysics, particle physics, condensed matter theory, aerospace engineering, and clinical informatics, he has repeatedly stepped into unfamiliar domains, learned their problems quickly, and delivered validated results, an adaptability that now shapes how he approaches AI research applications.
+
+An NSF Graduate Research Fellow and NLM Fellow, Daniel has received Baylor's Dean's Award of Excellence and an Outstanding TA Award. He has shared his work through peer-reviewed publications and more than 20 conference presentations.
 
 ## Links
 
