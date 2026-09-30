@@ -7,16 +7,16 @@ subtitle: "Applied AI Research Scientist"
 
 ## About
 
-Daniel Palacios is an applied AI research scientist and PhD candidate in Quantitative & Computational Biosciences at Baylor College of Medicine, advised by Dr. Zhandong Liu in the Liu Lab at the Data Science Center, Texas Children's Hospital. He builds AI systems that turn messy, real-world clinical data into answers clinicians and researchers can use.
+Daniel Palacios is an applied AI research scientist and PhD candidate in Quantitative & Computational Biosciences at Baylor College of Medicine, advised by Dr. Zhandong Liu in the Liu Lab at the Data Science Center, Texas Children's Hospital. His expertise is building AI systems that turn messy, real-world clinical data into answers people can act on — the full pipeline from raw records to validated results.
 
-Most of his work is where large language models meet electronic health records. Clinical data is split between structured tables and free-text notes, and the questions that matter rarely fit a single model. He approaches this from several angles:
+His day-to-day research falls into four areas:
 
-- **Prediction:** agentic and multi-agent LLM systems that plan, code, debug, and interpret their own analyses — applied to early postpartum depression risk and pediatric diabetes clinical reasoning, benchmarked against classical ML and deep learning.
-- **Extraction:** LLM consensus pipelines that pull treatment-response phenotypes from clinical notes for rare disease research.
-- **Privacy:** evaluating LLMs for clinical-note de-identification, including a new category of context-dependent privacy risk ("institutionally-situated PHI").
-- **Foundation models:** contributing to a generative pediatric EHR foundation model trained on data from millions of children.
+- **Clinical outcome prediction:** designing AI agents and LLM systems that plan, code, debug, and interpret their own analyses to predict patient outcomes — postpartum depression risk (ClinPreAI), pediatric diabetes complications (CEDAR) — benchmarked against classical machine learning and deep learning.
+- **Entity extraction:** pulling structure out of clinical text with LLMs — treatment-response phenotypes for rare disease research, and PHI scrubbing for clinical-note de-identification.
+- **Foundation models:** training transformer-based models on electronic health records, including a generative pediatric EHR foundation model (TEDDY) trained on data from millions of children.
+- **End-to-end data analysis:** raw data to ML-ready — data curation, large-scale pipelines, and biomedical statistics (risk factors, odds and hazard ratios, clustering), so analyses are rigorous before any model is trained.
 
-Underneath it all is data engineering: large-scale PySpark pipelines over standardized EHR data (OMOP CDM, Epic Clarity) on Palantir Foundry and AWS.
+The throughline is data: large-scale PySpark pipelines over standardized EHR data (OMOP CDM, Epic Clarity) on Palantir Foundry and AWS, feeding validated analyses and models.
 
 Daniel is also an AI Developer and Research Design Intern at Peraton, where he builds LLM and multi-agent software and designs controlled experiments on how system design choices affect performance and reliability.
 
