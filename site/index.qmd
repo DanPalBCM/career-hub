@@ -5,6 +5,8 @@ subtitle: "Applied AI Research Scientist"
 
 *Ph.D. candidate in Quantitative & Computational Biosciences, Baylor College of Medicine · Houston, Texas*
 
+<img src="assets/img/headshot-professional.jpg" alt="Daniel Palacios" style="float: right; width: 200px; border-radius: 6px; margin: 0 0 1em 1.5em;">
+
 ## About
 
 Daniel Palacios is an applied AI research scientist and PhD candidate in Quantitative & Computational Biosciences at Baylor College of Medicine, advised by Dr. Zhandong Liu in the Liu Lab at the Data Science Center, Texas Children's Hospital. He builds AI systems that turn messy, real-world data into answers people can act on, owning the full pipeline from raw records to validated results.

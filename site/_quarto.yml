@@ -20,8 +20,9 @@ website:
         text: Software
       - href: career.qmd
         text: Career
-      - href: travels.qmd
-        text: Travels
+      # PERSONAL — private flag: uncomment to display personal tabs on the website
+      # - href: travels.qmd
+      #   text: Travels
       - href: assets/cv/cv-latest.pdf
         text: CV (PDF)
     right:
