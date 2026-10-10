@@ -16,12 +16,10 @@ cv:
   social_networks:
     - network: GitHub
       username: DanPalBCM
-    # TODO(human): LinkedIn username (the slug after /in/)
-    # - network: LinkedIn
-    #   username: TODO
-    # TODO(human): ORCID iD (the 0000-0000-0000-0000 identifier)
-    # - network: ORCID
-    #   username: TODO
+    - network: LinkedIn
+      username: daniel-palacios-506734224
+    - network: ORCID
+      username: 0000-0001-9608-3311
     # TODO(human): Google Scholar profile ID
     # - network: GoogleScholar
     #   username: TODO
@@ -30,12 +28,20 @@ cv:
 
     summary:
       - >-
-        Ph.D. candidate in Quantitative and Computational Biosciences and NSF
-        Graduate Research Fellow applying AI and machine learning — LLM-powered
-        agentic systems, multi-agent architectures, and EHR foundation models —
-        to clinical informatics and computational biology. Prior research in
-        space radiation biology and NLP at NASA, and in theoretical
-        superconductivity.
+        Bilingual, collaborative scientist specializing in AI and machine
+        learning for clinical informatics and computational biology. Builds
+        LLM-powered systems, agentic AI workflows, and AutoML pipelines for
+        healthcare applications, including postpartum mental health prediction,
+        pediatric diabetes outcome prediction, rare disease and
+        treatment-response phenotyping, clinical note de-identification, and
+        generative disease-trajectory modeling across EHR datasets ranging
+        from targeted clinical cohorts to repositories of 1M+ patients.
+        Combines AI agents and rigorous statistical modeling to extract
+        actionable insights from EHR data and translate them into deployable
+        workflows with AWS and Palantir Foundry platforms. Recognized with NSF
+        GRFP and NLM fellowships; disseminated work through peer-reviewed
+        publications and 20+ posters/talks, with open-source software
+        contributions spanning NASA mission modeling and clinical informatics.
 
     education:
       - institution: Baylor College of Medicine
@@ -121,6 +127,9 @@ cv:
           - >-
             Added gamma radiation and alamarBlue metabolic-dye dynamics
             (Michaelis-Menten kinetics) and a 3D free-radical diffusion model.
+          - >-
+            First-author AMMPER-2 manuscript under revision at the American
+            Society for Microbiology (preprint DOI 10.64898/2026.10.08.757403).
           - "Mentored two undergraduates who carried the project forward; 4 presentations."
 
       - company: NASA Johnson Space Center
@@ -186,6 +195,16 @@ cv:
         date: 2026
 
       # -- under review --
+      - title: >-
+          AMMPER-2: A Spatially Explicit Agent-Based Model of Microbial
+          Radiobiology with Redox Dye Simulation
+        authors:
+          - "***Daniel Palacios***"
+          - et al.
+        journal: "American Society for Microbiology (under revision)"
+        doi: 10.64898/2026.10.08.757403
+        date: 2026
+
       - title: >-
           MedSDoH: A Rule-Based System for Social Determinants of Health
           Extraction from Multi-site EHRs based on the OHNLP Framework
@@ -359,12 +378,16 @@ cv:
         details: >-
           Deep learning (CNNs, LSTMs, Transformers), PEFT/QLoRA, prompt
           engineering, retrieval-augmented generation, agentic AI and
-          multi-agent design, AutoML
-      - label: Statistics and methods
+          multi-agent design, AutoML, predictive modeling, clustering,
+          dimensionality reduction, supervised and unsupervised learning
+      - label: Data science
         details: >-
-          Experimental design, hypothesis testing, feature engineering,
-          statistical modeling
+          Experimental design, hypothesis testing, feature engineering, data
+          wrangling and preprocessing, data imputation, data augmentation,
+          exploratory data analysis, statistical modeling, data visualization
       - label: Mathematics
         details: "Probability, linear algebra, ODEs/PDEs, optimization"
       - label: Platforms and tools
-        details: "AWS (SageMaker, Bedrock), Palantir Foundry, Docker, Git, Power BI"
+        details: >-
+          AWS (SageMaker, Bedrock), Palantir Foundry (Pipeline Builder, AIP
+          Agents, OAG), Docker, Git, Power BI
