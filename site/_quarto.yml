@@ -30,16 +30,26 @@ website:
         href: https://github.com/DanPalBCM
         aria-label: GitHub
   page-footer:
-    left: "Daniel.Palacios@bcm.edu"
-    right: >-
-      Built from
-      [DanPalBCM/career-hub](https://github.com/DanPalBCM/career-hub).
-      Content licensed CC BY 4.0.
+    left: "Daniel.Palacios@bcm.edu · Content licensed CC BY 4.0"
+    right:
+      - icon: github
+        href: https://github.com/DanPalBCM
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/daniel-palacios-506734224/
+        aria-label: LinkedIn
+      - icon: envelope
+        href: mailto:Daniel.Palacios@bcm.edu
+        aria-label: Email
+      - text: ORCID
+        href: https://orcid.org/0000-0001-9608-3311
+        aria-label: ORCID
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme:
+      light: [cosmo, styles/light.scss]
+      dark: [cosmo, styles/dark.scss]
     toc: true
     toc-depth: 2
     anchor-sections: true

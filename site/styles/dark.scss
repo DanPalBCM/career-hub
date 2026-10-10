@@ -1,0 +1,595 @@
+// site/styles/dark.scss
+/*-- scss:defaults --*/
+
+// ---- Fonts (Google Fonts) ------------------------------------------------
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Source+Serif+4:opsz,wght@8..60,600&display=swap");
+
+// Stop cosmo from also loading its own web font
+$web-font-path: false;
+
+// ---- Design tokens (dark) ------------------------------------------------
+$sw-bg: #12171C;
+$sw-surface: #1A2128;
+$sw-text: #E4E7EB;
+$sw-muted: #9AA5B1;
+$sw-hairline: #2A333C;
+$sw-primary: #5EBFB2;
+$sw-primary-hover: #8AD3C9;
+$sw-accent: #E0B25C;
+$sw-on-primary: #12171C;
+$sw-code-bg: #222B34;
+$sw-primary-tint: rgba(94, 191, 178, 0.12);
+$sw-row-hover: rgba(94, 191, 178, 0.06);
+$sw-shadow: rgba(0, 0, 0, 0.45);
+$sw-dot-color: #5EBFB2;
+$sw-dot-opacity: 0.08;
+$sw-color-scheme: dark;
+
+// ---- Bootstrap / Quarto overrides ----------------------------------------
+$body-bg: $sw-bg;
+$body-color: $sw-text;
+$body-emphasis-color: $sw-text;
+$body-secondary-color: $sw-muted;
+$body-secondary-bg: $sw-surface;
+$body-tertiary-color: $sw-muted;
+$body-tertiary-bg: $sw-surface;
+$text-muted: $sw-muted;
+$primary: $sw-primary;
+$link-color: $sw-primary;
+$link-hover-color: $sw-primary-hover;
+$min-contrast-ratio: 4.5;
+$border-color: $sw-hairline;
+$border-color-translucent: rgba(228, 231, 235, 0.12);
+$navbar-bg: $sw-bg;
+$navbar-fg: $sw-text;
+$navbar-hl: $sw-text;
+$footer-bg: $sw-bg;
+$footer-fg: $sw-muted;
+$font-family-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$font-family-monospace: "JetBrains Mono", SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+$headings-font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+$headings-font-weight: 600;
+$headings-color: $sw-text;
+$font-size-base: 1.0625rem; // 17px
+$line-height-base: 1.65;
+$h1-font-size: 2.25rem;
+$h2-font-size: 1.6rem;
+$h3-font-size: 1.25rem;
+$h4-font-size: 1.1rem;
+$code-color: $sw-text;
+$code-bg: $sw-code-bg;
+$code-block-bg: $sw-code-bg;
+$table-color: $sw-text;
+$table-bg: transparent;
+$table-border-color: $sw-hairline;
+$input-bg: $sw-surface;
+$input-color: $sw-text;
+$input-border-color: $sw-hairline;
+$dropdown-bg: $sw-surface;
+$dropdown-color: $sw-text;
+$dropdown-link-color: $sw-text;
+$dropdown-border-color: $sw-hairline;
+$btn-border-radius: 0.5rem;
+
+/*-- scss:rules --*/
+
+// ---- Base ------------------------------------------------------------------
+:root {
+  color-scheme: $sw-color-scheme;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: $sw-primary-tint;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6,
+.quarto-title .title {
+  font-family: $headings-font-family;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+strong, b {
+  font-weight: 600;
+}
+
+h2 {
+  border-bottom: 1px solid $sw-hairline;
+  padding-bottom: 0.35rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  margin-top: 1.75rem;
+}
+
+.subtitle, .quarto-title .subtitle {
+  font-family: $font-family-sans-serif;
+  color: $sw-muted;
+  font-weight: 400;
+}
+
+// Reading width cap (~70ch) for running text
+#quarto-document-content {
+  > p, > ul, > ol, > blockquote, > dl,
+  section > p, section > ul, section > ol, section > blockquote, section > dl {
+    max-width: 70ch;
+  }
+}
+
+// Content links
+#quarto-document-content a:not(.btn):not(.anchorjs-link):not(.nav-link) {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+  text-decoration-color: rgba($sw-primary, 0.45);
+
+  &:hover {
+    text-decoration-color: currentColor;
+  }
+}
+
+// ---- Code ----------------------------------------------------------------
+code, kbd, pre, samp {
+  font-family: $font-family-monospace;
+}
+
+p code:not(.sourceCode), li code:not(.sourceCode), td code:not(.sourceCode) {
+  background: $sw-code-bg;
+  color: $sw-text;
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+  font-size: 0.875em;
+}
+
+div.sourceCode, pre.sourceCode {
+  background: $sw-code-bg;
+  border: 1px solid $sw-hairline;
+  border-radius: 8px;
+}
+
+// ---- Navbar ----------------------------------------------------------------
+#quarto-header .navbar {
+  background-color: $sw-bg;
+  border-bottom: 1px solid $sw-hairline;
+  box-shadow: none;
+
+  .navbar-brand, .navbar-title {
+    color: $sw-text;
+    font-family: $headings-font-family;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+
+  .navbar-nav .nav-link {
+    color: $sw-text;
+    font-weight: 500;
+    font-size: 0.95rem;
+
+    &:hover, &:focus {
+      color: $sw-primary;
+    }
+
+    &.active {
+      color: $sw-text;
+    }
+
+    &.active .menu-text {
+      background-image: linear-gradient($sw-primary, $sw-primary);
+      background-size: 100% 2px;
+      background-position: 0 100%;
+      background-repeat: no-repeat;
+      padding-bottom: 3px;
+    }
+  }
+
+  .navbar-toggler {
+    border-color: $sw-hairline;
+  }
+
+  .navbar-toggler-icon {
+    background-image: escape-svg(url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$sw-text}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>"));
+  }
+}
+
+// ---- Footer ----------------------------------------------------------------
+.nav-footer {
+  background-color: $sw-bg;
+  border-top: 1px solid $sw-hairline;
+  color: $sw-muted;
+  font-size: 0.875rem;
+
+  a, .nav-link {
+    color: $sw-muted;
+    text-decoration: none;
+
+    &:hover {
+      color: $sw-primary;
+    }
+  }
+
+  .footer-items {
+    display: flex;
+    align-items: center;
+    gap: 0.15rem;
+  }
+
+  .bi {
+    font-size: 1.05rem;
+  }
+
+  a[href*="orcid.org"] {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    border: 1px solid $sw-hairline;
+    border-radius: 999px;
+    padding: 0.1rem 0.55rem;
+    margin-left: 0.35rem;
+  }
+}
+
+// ---- Hero ----------------------------------------------------------------
+// Hide the default title block visually on pages with a hero (kept for screen readers)
+#quarto-document-content:has(.hero) #title-block-header {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.hero {
+  position: relative;
+  isolation: isolate;
+  padding: 2.75rem 1.25rem 2.25rem;
+  margin-bottom: 2.5rem;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background-image: radial-gradient(circle, $sw-dot-color 1px, transparent 1.5px);
+    background-size: 22px 22px;
+    opacity: $sw-dot-opacity;
+    -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 35%, transparent 100%);
+    mask-image: linear-gradient(to bottom, #000 0%, #000 35%, transparent 100%);
+  }
+
+  .grid {
+    align-items: center;
+    row-gap: 1.75rem;
+  }
+
+  p {
+    max-width: none;
+  }
+}
+
+.lead {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.55;
+  color: $sw-text;
+  max-width: 36em;
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.hero-eyebrow {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: $sw-primary;
+  margin-bottom: 0.5rem;
+
+  p {
+    margin: 0;
+  }
+}
+
+.hero-name {
+  font-family: $headings-font-family;
+  font-weight: 600;
+  font-size: 2.75rem;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  color: $sw-text;
+
+  p {
+    margin: 0;
+  }
+
+  &::after {
+    content: "";
+    display: block;
+    width: 56px;
+    height: 2px;
+    background: $sw-accent;
+    margin: 1rem 0 1.1rem;
+  }
+}
+
+.hero-meta {
+  color: $sw-muted;
+  font-size: 0.95rem;
+  margin-bottom: 0.9rem;
+
+  p {
+    margin: 0;
+  }
+}
+
+.hero-actions {
+  margin-top: 1.5rem;
+
+  p {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin: 0;
+  }
+
+  .btn {
+    font-weight: 500;
+    font-size: 0.95rem;
+    padding: 0.55rem 1.15rem;
+    border-radius: 8px;
+    border-width: 1px;
+    text-decoration: none;
+    transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+  }
+
+  .btn-primary {
+    background-color: $sw-primary;
+    border-color: $sw-primary;
+    color: $sw-on-primary;
+
+    &:hover, &:focus {
+      background-color: $sw-primary-hover;
+      border-color: $sw-primary-hover;
+      color: $sw-on-primary;
+    }
+  }
+
+  .btn-outline-primary {
+    background-color: transparent;
+    border-color: $sw-primary;
+    color: $sw-primary;
+
+    &:hover, &:focus {
+      background-color: $sw-primary-tint;
+      border-color: $sw-primary;
+      color: $sw-primary;
+    }
+  }
+}
+
+.hero-photo-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-photo {
+  display: block;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 0 4px $sw-bg, 0 0 0 6px $sw-primary, 0 14px 30px -10px $sw-shadow;
+}
+
+// ---- Project cards -------------------------------------------------------
+.sw-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+  margin: 1.25rem 0 2.25rem;
+}
+
+.sw-card {
+  background: $sw-surface;
+  border: 1px solid $sw-hairline;
+  border-radius: 12px;
+  padding: 1.375rem 1.5rem;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 28px -12px $sw-shadow, 0 2px 6px $sw-shadow;
+    border-color: $sw-primary;
+  }
+
+  section {
+    margin: 0;
+  }
+
+  h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.25rem;
+    border: 0;
+
+    a {
+      color: $sw-text;
+      text-decoration: none !important;
+
+      &:hover {
+        color: $sw-primary;
+      }
+    }
+  }
+
+  p {
+    margin-bottom: 0.75rem;
+  }
+}
+
+#quarto-document-content .sw-card p {
+  max-width: none;
+}
+
+.sw-tags p {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.25rem 0 0.9rem;
+}
+
+.sw-links p {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: $sw-muted;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.5;
+  white-space: nowrap;
+  color: $sw-primary;
+  background: $sw-primary-tint;
+  border: 1px solid rgba($sw-primary, 0.3);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sw-card {
+    transition: none;
+  }
+
+  .sw-card:hover {
+    transform: none;
+  }
+}
+
+// ---- Tables ----------------------------------------------------------------
+#quarto-document-content table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 0.94rem;
+  background: $sw-surface;
+  border: 1px solid $sw-hairline;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 1rem 0 2rem;
+
+  th, td {
+    padding: 0.7rem 0.9rem;
+    vertical-align: top;
+    border-top: 0;
+    border-bottom: 1px solid $sw-hairline;
+    color: $sw-text;
+    background-color: transparent;
+  }
+
+  thead th {
+    background-color: $sw-bg;
+    font-family: $font-family-sans-serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: $sw-muted;
+  }
+
+  tbody tr:last-child td {
+    border-bottom: 0;
+  }
+
+  tbody tr:hover td {
+    background-color: $sw-row-hover;
+  }
+
+  td:first-child {
+    white-space: nowrap;
+    font-weight: 500;
+  }
+}
+
+// ---- Publications --------------------------------------------------------
+#published > p, #under-review > p, #preprints > p, div.csl-entry {
+  padding-left: 1.5em;
+  text-indent: -1.5em;
+  margin-bottom: 1.1rem;
+  line-height: 1.6;
+
+  a {
+    overflow-wrap: anywhere;
+  }
+}
+
+#refs, div.csl-bib-body {
+  font-size: 0.94rem;
+}
+
+// ---- Responsive ----------------------------------------------------------
+@media (max-width: 767.98px) {
+  .hero {
+    padding: 1.75rem 0 1.5rem;
+    text-align: center;
+
+    .lead {
+      font-size: 1.1rem;
+      margin-inline: auto;
+    }
+  }
+
+  .hero-photo-col {
+    order: -1;
+  }
+
+  .hero-name {
+    font-size: 2.15rem;
+
+    &::after {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  .hero-actions p {
+    justify-content: center;
+  }
+
+  .sw-card {
+    padding: 1.25rem;
+  }
+
+  h2 {
+    margin-top: 2rem;
+  }
+
+  #quarto-document-content table {
+    display: block;
+    overflow-x: auto;
+
+    td:first-child {
+      white-space: normal;
+    }
+  }
+
+  .nav-footer {
+    text-align: center;
+  }
+}

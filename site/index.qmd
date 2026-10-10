@@ -3,9 +3,30 @@ title: "Daniel Palacios"
 subtitle: "Applied AI Research Scientist"
 ---
 
+:::::: {.hero}
+::::: {.grid}
+:::: {.g-col-12 .g-col-md-7 .hero-text}
+::: {.hero-eyebrow}
+Applied AI Research Scientist
+:::
+::: {.hero-name}
+Daniel Palacios
+:::
+::: {.hero-meta}
 *Ph.D. candidate in Quantitative & Computational Biosciences, Baylor College of Medicine · Houston, Texas*
-
-<img src="assets/img/headshot-professional.jpg" alt="Daniel Palacios" style="float: right; width: 200px; border-radius: 6px; margin: 0 0 1em 1.5em;">
+:::
+::: {.lead}
+I build AI systems that turn messy, real-world data into answers people can act on — owning the full pipeline from raw records to validated results.
+:::
+::: {.hero-actions}
+[CV](assets/cv/cv-latest.pdf){.btn .btn-primary} [Publications](publications.qmd){.btn .btn-outline-primary} [GitHub](https://github.com/DanPalBCM){.btn .btn-outline-primary}
+:::
+::::
+:::: {.g-col-12 .g-col-md-5 .hero-photo-col}
+<img src="assets/img/headshot-professional.jpg" alt="Daniel Palacios" class="hero-photo" width="180" height="180">
+::::
+:::::
+::::::
 
 ## About
 
