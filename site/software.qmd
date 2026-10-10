@@ -6,7 +6,7 @@ title: "Software"
 
 ### [AMMPER](https://github.com/nasa/AMMPER)
 
-Agent-based model of microbial cell populations exposed to ionizing deep-space radiation, developed in the NASA Ames Space Biosciences Division and validated against BioSentinel mission data. Later extended with gamma-radiation and metabolic-dye dynamics and a 3D free-radical diffusion model.
+Agent-based model of microbial cell populations exposed to ionizing deep-space radiation, developed in the NASA Ames Space Biosciences Division and validated against BioSentinel mission data. Later extended with gamma-radiation and metabolic-dye dynamics and a 3D free-radical diffusion model. The AMMPER-2 manuscript is under revision at the American Society for Microbiology ([preprint](https://doi.org/10.64898/2026.10.08.757403)).
 
 [Code](https://github.com/nasa/AMMPER) · [Fork](https://github.com/DanPalBCM/AMMPER)
 

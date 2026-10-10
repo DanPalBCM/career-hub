@@ -12,6 +12,8 @@ Goulding, A. N., Palacios, D., et al. (2026). Factors associated with postpartum
 
 ## Under review
 
+Palacios, D., et al. AMMPER-2: A spatially explicit agent-based model of microbial radiobiology with redox dye simulation. *American Society for Microbiology* (under revision). Preprint: [https://doi.org/10.64898/2026.10.08.757403](https://doi.org/10.64898/2026.10.08.757403)
+
 Ahn, J., Fu, S., Palacios, D., et al. MedSDoH: A rule-based system for social determinants of health extraction from multi-site EHRs based on the OHNLP framework. *Journal of the American Medical Informatics Association* (under review, amiajnl-2025-018748). [https://doi.org/10.64898/2026.04.27.26351699](https://doi.org/10.64898/2026.04.27.26351699)
 
 Palacios, D., et al. ClinPreAI: An agentic AI system for early postpartum depression risk prediction from multimodal EHR data. *PLOS Digital Health* (under review). Preprint: [https://doi.org/10.1101/2025.11.14.25340265](https://doi.org/10.1101/2025.11.14.25340265)
