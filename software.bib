@@ -26,18 +26,6 @@
                  repository name is cited in the manuscript.}
 }
 
-@software{sw-clinical-antepartum-ppd-prediction,
-  author      = {Palacios, Daniel},
-  title       = {clinical-antepartum-ppd-prediction},
-  url         = {https://github.com/DanPalBCM/clinical-antepartum-ppd-prediction},
-  license     = {TODO(human): choose MIT or Apache-2.0 and add the LICENSE file
-                 to the repository},
-  related-doi = {10.1002/pmf2.70319},
-  keywords    = {original, public},
-  note        = {Original work; public. Companion code for the Pregnancy 2026
-                 paper (DOI 10.1002/pmf2.70319). Code only; no patient data.}
-}
-
 @software{sw-clinical-trofinetide,
   author      = {Palacios, Daniel},
   title       = {clinical-trofinetide},
@@ -48,31 +36,6 @@
   note        = {Original work; public. Companion code for the Trofinetide /
                  Rett syndrome manuscript (under review; metadata only until a
                  preprint posts). Code only; no patient data.}
-}
-
-@software{sw-ml-nasa-nlp,
-  author      = {Palacios, Daniel},
-  title       = {ml-nasa-nlp},
-  url         = {https://github.com/DanPalBCM/ml-nasa-nlp},
-  license     = {TODO(human): choose MIT or Apache-2.0 and add the LICENSE file
-                 to the repository},
-  related-doi = {10.1038/s41598-026-36813-7},
-  keywords    = {original, public},
-  note        = {Original work; public. Companion code for the Scientific
-                 Reports 2026 paper (DOI 10.1038/s41598-026-36813-7).}
-}
-
-@software{sw-superconducting-diode-effect,
-  author      = {Palacios, Daniel},
-  title       = {superconducting-diode-effect},
-  url         = {https://github.com/DanPalBCM/superconducting-diode-effect},
-  license     = {TODO(human): choose MIT or Apache-2.0 and add the LICENSE file
-                 to the repository},
-  related-doi = {10.1103/PhysRevB.108.094513},
-  keywords    = {original, public},
-  note        = {Original work; public. Companion code for the Physical Review
-                 B 2023 paper (DOI 10.1103/PhysRevB.108.094513). Also holds the
-                 senior-project theory PDF.}
 }
 
 % ---------------------------------------------- original, public (no paper) --
@@ -86,6 +49,42 @@
   keywords    = {original, public},
   note        = {Original work; public. Pediatric Type 1 / Type 2 diabetes EHR
                  analysis. Code only; no patient data.}
+}
+
+% ----------------------------------------------- clinical AI evaluation toolkit --
+
+@software{sw-clinval,
+  author      = {Palacios, Daniel},
+  title       = {clinval},
+  url         = {https://github.com/DanPalBCM/clinval},
+  license     = {Apache-2.0},
+  keywords    = {original, public},
+  note        = {Original work; public. Validation harness for clinical LLM
+                 extraction: patient-window metrics with clustered confidence
+                 intervals, a frozen dev protocol, and error-mechanism
+                 analysis. Public PyPI-claimable name; not yet published.}
+}
+
+@software{sw-fhirground,
+  author      = {Palacios, Daniel},
+  title       = {fhirground},
+  url         = {https://github.com/DanPalBCM/fhirground},
+  license     = {Apache-2.0},
+  keywords    = {original, public},
+  note        = {Original work; public. Grounded, validated FHIR R4 extraction
+                 from clinical notes: the LLM emits mentions with evidence
+                 quotes; deterministic code emits FHIR. No hallucinated codes,
+                 by construction.}
+}
+
+@software{sw-ehrlint,
+  author      = {Palacios, Daniel},
+  title       = {ehrlint},
+  url         = {https://github.com/DanPalBCM/ehrlint},
+  license     = {Apache-2.0},
+  keywords    = {original, public},
+  note        = {Original work; public. Audits a finished MEDS or OMOP dataset
+                 for the leakage patterns that sink clinical prediction models.}
 }
 
 % ---------------------------------------------------------------------- forks --

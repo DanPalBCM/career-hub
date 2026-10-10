@@ -22,15 +22,34 @@ R package for analyzing gene expression variations in neurological diseases, par
 
 [Code](https://github.com/DanPalBCM/OverlapPlots)
 
+## Clinical AI Evaluation Toolkit
+
+Three open-source packages for evaluating and deploying large language models on clinical data:
+
+### [clinval](https://github.com/DanPalBCM/clinval)
+
+Validation harness for clinical LLM extraction: patient-window metrics with clustered confidence intervals, a frozen dev protocol, and error-mechanism analysis.
+
+[Code](https://github.com/DanPalBCM/clinval)
+
+### [fhirground](https://github.com/DanPalBCM/fhirground)
+
+Grounded, validated FHIR R4 extraction from clinical notes: the LLM emits mentions with evidence quotes, deterministic code emits FHIR. No hallucinated codes, by construction.
+
+[Code](https://github.com/DanPalBCM/fhirground)
+
+### [ehrlint](https://github.com/DanPalBCM/ehrlint)
+
+Lint your clinical prediction task before you train on it. Audits a finished MEDS or OMOP dataset for the leakage patterns that sink clinical prediction models — with the rows that prove it.
+
+[Code](https://github.com/DanPalBCM/ehrlint)
+
 ## More software
 
 | Project | Description |
 |---|---|
 | [clinical-clinpreai-benchmarks](https://github.com/DanPalBCM/clinical-clinpreai-benchmarks) | Companion code for [ClinPreAI](https://doi.org/10.1101/2025.11.14.25340265). |
-| [clinical-antepartum-ppd-prediction](https://github.com/DanPalBCM/clinical-antepartum-ppd-prediction) | Companion code for the [Pregnancy 2026 paper](https://doi.org/10.1002/pmf2.70319). Code only; no patient data. |
 | [clinical-trofinetide](https://github.com/DanPalBCM/clinical-trofinetide) | Companion code for the trofinetide / Rett syndrome phenotyping manuscript (under review). Code only; no patient data. |
-| [ml-nasa-nlp](https://github.com/DanPalBCM/ml-nasa-nlp) | Companion code for the [Scientific Reports 2026 paper](https://doi.org/10.1038/s41598-026-36813-7). |
-| [superconducting-diode-effect](https://github.com/DanPalBCM/superconducting-diode-effect) | Companion code for the [Physical Review B 2023 paper](https://doi.org/10.1103/PhysRevB.108.094513). |
 | [clinical-diabetes-t1d-t2d](https://github.com/DanPalBCM/clinical-diabetes-t1d-t2d) | Pediatric Type 1 / Type 2 diabetes EHR analysis code. Code only; no patient data. |
 | [MedSDoH](https://github.com/DanPalBCM/MedSDoH) | OHNLP-based social determinants of health extraction; companion to the [MedSDoH manuscript](https://doi.org/10.64898/2026.04.27.26351699). |
 | [phi-scrubber-evaluation](https://github.com/LiuzLab/phi-scrubber-evaluation) | Evaluation code for the [de-identification benchmark manuscript](https://doi.org/10.48550/arXiv.2608.17051). Private lab repository; no public mirror. |

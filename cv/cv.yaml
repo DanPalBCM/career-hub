@@ -265,9 +265,8 @@ cv:
     research_software:
       - label: Original, public
         details: >-
-          clinical-clinpreai-benchmarks; clinical-antepartum-ppd-prediction;
-          clinical-trofinetide; clinical-diabetes-t1d-t2d; ml-nasa-nlp;
-          superconducting-diode-effect
+          clinical-clinpreai-benchmarks; clinical-trofinetide;
+          clinical-diabetes-t1d-t2d; clinval; fhirground; ehrlint
       - label: Forks
         details: "AMMPER; MedSDoH; OverlapPlots (working copies; upstream licenses)"
       - label: Private
