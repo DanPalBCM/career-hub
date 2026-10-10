@@ -4,14 +4,14 @@
     "href": "software.html",
     "title": "Software",
     "section": "",
-    "text": "Agent-based model of microbial cell populations exposed to ionizing deep-space radiation, developed in the NASA Ames Space Biosciences Division and validated against BioSentinel mission data. Later extended with gamma-radiation and metabolic-dye dynamics and a 3D free-radical diffusion model. The AMMPER-2 manuscript is under revision at the American Society for Microbiology (preprint).\nCode · Fork\n\n\n\nRetrieval-augmented generation system that matches a mentee with Texas Children’s Hospital mentors from a CV or an interest description. Private fork; available on request.\nCode\n\n\n\nR package for analyzing gene expression variations in neurological diseases, particularly synaptic dysfunction.\nCode"
+    "text": "Agent-based model of microbial cell populations exposed to ionizing deep-space radiation, developed in the NASA Ames Space Biosciences Division and validated against BioSentinel mission data. Later extended with gamma-radiation and metabolic-dye dynamics and a 3D free-radical diffusion model. The AMMPER-2 manuscript is under revision at the American Society for Microbiology (preprint).\n\nPython Agent-based modeling\n\n\nCode · Fork\n\n\n\n\nRetrieval-augmented generation system that matches a mentee with Texas Children’s Hospital mentors from a CV or an interest description. Private fork; available on request.\n\nRAG LLMs\n\n\nCode\n\n\n\n\nR package for analyzing gene expression variations in neurological diseases, particularly synaptic dysfunction.\n\nR Genomics\n\n\nCode"
   },
   {
     "objectID": "software.html#featured",
     "href": "software.html#featured",
     "title": "Software",
     "section": "",
-    "text": "Agent-based model of microbial cell populations exposed to ionizing deep-space radiation, developed in the NASA Ames Space Biosciences Division and validated against BioSentinel mission data. Later extended with gamma-radiation and metabolic-dye dynamics and a 3D free-radical diffusion model. The AMMPER-2 manuscript is under revision at the American Society for Microbiology (preprint).\nCode · Fork\n\n\n\nRetrieval-augmented generation system that matches a mentee with Texas Children’s Hospital mentors from a CV or an interest description. Private fork; available on request.\nCode\n\n\n\nR package for analyzing gene expression variations in neurological diseases, particularly synaptic dysfunction.\nCode"
+    "text": "Agent-based model of microbial cell populations exposed to ionizing deep-space radiation, developed in the NASA Ames Space Biosciences Division and validated against BioSentinel mission data. Later extended with gamma-radiation and metabolic-dye dynamics and a 3D free-radical diffusion model. The AMMPER-2 manuscript is under revision at the American Society for Microbiology (preprint).\n\nPython Agent-based modeling\n\n\nCode · Fork\n\n\n\n\nRetrieval-augmented generation system that matches a mentee with Texas Children’s Hospital mentors from a CV or an interest description. Private fork; available on request.\n\nRAG LLMs\n\n\nCode\n\n\n\n\nR package for analyzing gene expression variations in neurological diseases, particularly synaptic dysfunction.\n\nR Genomics\n\n\nCode"
   },
   {
     "objectID": "software.html#more-software",
@@ -53,7 +53,7 @@
     "href": "index.html",
     "title": "Daniel Palacios",
     "section": "",
-    "text": "Ph.D. candidate in Quantitative & Computational Biosciences, Baylor College of Medicine · Houston, Texas"
+    "text": "Applied AI Research Scientist\n\n\nDaniel Palacios\n\n\nPh.D. candidate in Quantitative & Computational Biosciences, Baylor College of Medicine · Houston, Texas\n\n\nI build AI systems that turn messy, real-world data into answers people can act on — owning the full pipeline from raw records to validated results.\n\n\nCV Publications GitHub"
   },
   {
     "objectID": "index.html#about",
