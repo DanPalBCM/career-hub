@@ -14,11 +14,18 @@
     "text": "Agent-based model of microbial cell populations exposed to ionizing deep-space radiation, developed in the NASA Ames Space Biosciences Division and validated against BioSentinel mission data. Later extended with gamma-radiation and metabolic-dye dynamics and a 3D free-radical diffusion model. The AMMPER-2 manuscript is under revision at the American Society for Microbiology (preprint).\nCode · Fork\n\n\n\nRetrieval-augmented generation system that matches a mentee with Texas Children’s Hospital mentors from a CV or an interest description. Private fork; available on request.\nCode\n\n\n\nR package for analyzing gene expression variations in neurological diseases, particularly synaptic dysfunction.\nCode"
   },
   {
+    "objectID": "software.html#clinical-ai-evaluation-toolkit",
+    "href": "software.html#clinical-ai-evaluation-toolkit",
+    "title": "Software",
+    "section": "Clinical AI Evaluation Toolkit",
+    "text": "Clinical AI Evaluation Toolkit\nThree open-source packages for evaluating and deploying large language models on clinical data:\n\nclinval\nValidation harness for clinical LLM extraction: patient-window metrics with clustered confidence intervals, a frozen dev protocol, and error-mechanism analysis.\nCode\n\n\nfhirground\nGrounded, validated FHIR R4 extraction from clinical notes: the LLM emits mentions with evidence quotes, deterministic code emits FHIR. No hallucinated codes, by construction.\nCode\n\n\nehrlint\nLint your clinical prediction task before you train on it. Audits a finished MEDS or OMOP dataset for the leakage patterns that sink clinical prediction models — with the rows that prove it.\nCode"
+  },
+  {
     "objectID": "software.html#more-software",
     "href": "software.html#more-software",
     "title": "Software",
     "section": "More software",
-    "text": "More software\n\n\n\nProject\nDescription\n\n\n\n\nclinical-clinpreai-benchmarks\nCompanion code for ClinPreAI.\n\n\nclinical-antepartum-ppd-prediction\nCompanion code for the Pregnancy 2026 paper. Code only; no patient data.\n\n\nclinical-trofinetide\nCompanion code for the trofinetide / Rett syndrome phenotyping manuscript (under review). Code only; no patient data.\n\n\nml-nasa-nlp\nCompanion code for the Scientific Reports 2026 paper.\n\n\nsuperconducting-diode-effect\nCompanion code for the Physical Review B 2023 paper.\n\n\nclinical-diabetes-t1d-t2d\nPediatric Type 1 / Type 2 diabetes EHR analysis code. Code only; no patient data.\n\n\nMedSDoH\nOHNLP-based social determinants of health extraction; companion to the MedSDoH manuscript.\n\n\nphi-scrubber-evaluation\nEvaluation code for the de-identification benchmark manuscript. Private lab repository; no public mirror."
+    "text": "More software\n\n\n\nProject\nDescription\n\n\n\n\nclinical-clinpreai-benchmarks\nCompanion code for ClinPreAI.\n\n\nclinical-trofinetide\nCompanion code for the trofinetide / Rett syndrome phenotyping manuscript (under review). Code only; no patient data.\n\n\nclinical-diabetes-t1d-t2d\nPediatric Type 1 / Type 2 diabetes EHR analysis code. Code only; no patient data.\n\n\nMedSDoH\nOHNLP-based social determinants of health extraction; companion to the MedSDoH manuscript.\n\n\nphi-scrubber-evaluation\nEvaluation code for the de-identification benchmark manuscript. Private lab repository; no public mirror."
   },
   {
     "objectID": "publications.html",
