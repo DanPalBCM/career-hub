@@ -544,53 +544,6 @@ div.sourceCode, pre.sourceCode {
 }
 
 
-// ---- Affiliations --------------------------------------------------------
-.affiliations {
-  margin: 0 0 2.5rem;
-  padding: 1.4rem 0;
-  border-top: 1px solid $sw-hairline;
-  border-bottom: 1px solid $sw-hairline;
-}
-
-.affil-label {
-  font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: $sw-muted;
-  text-align: center;
-  margin-bottom: 1.1rem;
-}
-
-.affil-logos {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: stretch;
-  justify-content: center;
-  gap: 0.8rem;
-}
-
-.affil-logos a {
-  display: inline-flex;
-  align-items: center;
-  background-color: #ffffff;
-  border: 1px solid $sw-hairline;
-  border-radius: 10px;
-  padding: 0.55rem 1.1rem;
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
-}
-
-.affil-logos a:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 10px 22px -12px $sw-shadow;
-}
-
-.affil-logo {
-  height: 34px;
-  width: auto;
-  max-width: 150px;
-  object-fit: contain;
-}
 
 // ---- Responsive ----------------------------------------------------------
 @media (max-width: 767.98px) {

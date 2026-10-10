@@ -28,19 +28,6 @@ I build AI systems that turn messy, real-world data into answers people can act 
 :::::
 ::::::
 
-<div class="affiliations">
-<div class="affil-label">Affiliations</div>
-<div class="affil-logos">
-<a href="https://www.bcm.edu/"><img src="assets/img/logos/bcm.png" alt="Baylor College of Medicine" class="affil-logo"></a>
-<a href="https://www.texaschildrens.org/"><img src="assets/img/logos/tch.png" alt="Texas Children's Hospital" class="affil-logo"></a>
-<a href="https://www.peraton.com/"><img src="assets/img/logos/peraton.png" alt="Peraton" class="affil-logo"></a>
-<a href="https://www.nsf.gov/"><img src="assets/img/logos/nsf.svg" alt="National Science Foundation" class="affil-logo"></a>
-<a href="https://www.nasa.gov/"><img src="assets/img/logos/nasa.svg" alt="NASA" class="affil-logo"></a>
-<a href="https://www.rice.edu/"><img src="assets/img/logos/rice.svg" alt="Rice University" class="affil-logo"></a>
-<a href="https://uh.edu/"><img src="assets/img/logos/uh.svg" alt="University of Houston" class="affil-logo"></a>
-</div>
-</div>
-
 ## About
 
 Daniel Palacios is an applied AI research scientist and PhD candidate in Quantitative & Computational Biosciences at Baylor College of Medicine, advised by Dr. Zhandong Liu in the Liu Lab at the Data Science Center, Texas Children's Hospital. He builds AI systems that turn messy, real-world data into answers people can act on, owning the full pipeline from raw records to validated results.
