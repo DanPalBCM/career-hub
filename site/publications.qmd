@@ -20,7 +20,7 @@ Palacios, D., et al. ClinPreAI: An agentic AI system for early postpartum depres
 
 Palacios, D., et al. Institution-specific LLM prompting recovers PHI that de-identification systems and their gold standards both miss. *Journal of the American Medical Informatics Association* (under review). Preprint: [https://doi.org/10.48550/arXiv.2608.17051](https://doi.org/10.48550/arXiv.2608.17051)
 
-Palacios, D., et al. Documenting trofinetide treatment phenotypes in Rett syndrome with a dual-LLM consensus pipeline. *Journal of the American Medical Informatics Association* (under review).
+Palacios, D., et al. Documenting trofinetide treatment phenotypes in Rett syndrome with a dual-LLM consensus pipeline. *Journal of the American Medical Informatics Association* (under review). Preprint: [https://arxiv.org/abs/2610.22062](https://arxiv.org/abs/2610.22062)
 
 ## Preprints
 

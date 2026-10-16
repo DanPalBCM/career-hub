@@ -243,9 +243,9 @@ cv:
         authors:
           - "***Daniel Palacios***"
           - et al.
-        journal: "Journal of the American Medical Informatics Association (under review; no public preprint)"
-        # TODO(human): add `date` once a submission year is confirmed, and `doi`
-        # once a preprint posts. Metadata only until then.
+        journal: "Journal of the American Medical Informatics Association (under review)"
+        doi: 10.48550/arXiv.2610.22062
+        date: 2026
 
       # -- preprint --
       - title: >-
