@@ -54,9 +54,9 @@ R package for analyzing gene expression variations in neurological diseases, par
 
 | Project | Description |
 |---|---|
-| [clinval](https://github.com/DanPalBCM/clinval) | Validation harness for clinical LLM extraction: patient-window metrics with clustered confidence intervals, a frozen dev protocol, and error-mechanism analysis. |
-| [fhirground](https://github.com/DanPalBCM/fhirground) | Grounded, validated FHIR R4 extraction from clinical notes: the LLM emits mentions with evidence quotes, deterministic code emits FHIR. |
-| [ehrlint](https://github.com/DanPalBCM/ehrlint) | Lints a clinical prediction task before training: audits finished MEDS/OMOP datasets for the leakage patterns that sink clinical prediction models. |
+| [clinval](https://github.com/DanPalBCM/clinval) | Validation harness for clinical LLM extraction: patient-window metrics with clustered confidence intervals, a frozen dev protocol, and error-mechanism analysis. Released on [PyPI](https://pypi.org/project/clinval/) (v1.0.0, `pip install clinval`); archived at [doi:10.5281/zenodo.24203325](https://doi.org/10.5281/zenodo.24203325). |
+| [fhirground](https://github.com/DanPalBCM/fhirground) | Grounded, validated FHIR R4 extraction from clinical notes: the LLM emits mentions with evidence quotes, deterministic code emits FHIR. Released on [PyPI](https://pypi.org/project/fhirground/) (v1.0.0, `pip install fhirground`); archived at [doi:10.5281/zenodo.24203617](https://doi.org/10.5281/zenodo.24203617). |
+| [ehrlint](https://github.com/DanPalBCM/ehrlint) | Lints a clinical prediction task before training: audits finished MEDS/OMOP datasets for the leakage patterns that sink clinical prediction models. Released on [PyPI](https://pypi.org/project/ehrlint/) (v1.0.0, `pip install ehrlint`); archived at [doi:10.5281/zenodo.24203619](https://doi.org/10.5281/zenodo.24203619). |
 | [clinical-clinpreai-benchmarks](https://github.com/DanPalBCM/clinical-clinpreai-benchmarks) | Companion code for [ClinPreAI](https://doi.org/10.1101/2025.11.14.25340265). |
 | [clinical-trofinetide](https://github.com/DanPalBCM/clinical-trofinetide) | Companion code for the trofinetide / Rett syndrome phenotyping manuscript (under review). Code only; no patient data. |
 | [clinical-diabetes-t1d-t2d](https://github.com/DanPalBCM/clinical-diabetes-t1d-t2d) | Pediatric Type 1 / Type 2 diabetes EHR analysis code. Code only; no patient data. |

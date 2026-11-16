@@ -267,6 +267,11 @@ cv:
         details: >-
           clinical-clinpreai-benchmarks; clinical-trofinetide;
           clinical-diabetes-t1d-t2d; clinval; fhirground; ehrlint
+      - label: PyPI releases (v1.0.0, Nov 2026)
+        details: >-
+          clinval (DOI 10.5281/zenodo.24203325); fhirground (DOI
+          10.5281/zenodo.24203617); ehrlint (DOI 10.5281/zenodo.24203619);
+          install with pip install clinval / fhirground / ehrlint
       - label: Forks
         details: "AMMPER; MedSDoH; OverlapPlots (working copies; upstream licenses)"
       - label: Private
