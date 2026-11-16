@@ -1,24 +1,10 @@
 [
   {
-    "objectID": "software.html",
-    "href": "software.html",
-    "title": "Software",
+    "objectID": "travels.html",
+    "href": "travels.html",
+    "title": "Travels",
     "section": "",
-    "text": "Agent-based model of microbial cell populations exposed to ionizing deep-space radiation, developed in the NASA Ames Space Biosciences Division and validated against BioSentinel mission data. Later extended with gamma-radiation and metabolic-dye dynamics and a 3D free-radical diffusion model. The AMMPER-2 manuscript is under revision at the American Society for Microbiology (preprint).\n\nPython Agent-based modeling\n\n\nCode · Fork\n\n\n\n\nRetrieval-augmented generation system that matches a mentee with Texas Children’s Hospital mentors from a CV or an interest description. Private fork; available on request.\n\nRAG LLMs\n\n\nCode\n\n\n\n\nR package for analyzing gene expression variations in neurological diseases, particularly synaptic dysfunction.\n\nR Genomics\n\n\nCode"
-  },
-  {
-    "objectID": "software.html#featured",
-    "href": "software.html#featured",
-    "title": "Software",
-    "section": "",
-    "text": "Agent-based model of microbial cell populations exposed to ionizing deep-space radiation, developed in the NASA Ames Space Biosciences Division and validated against BioSentinel mission data. Later extended with gamma-radiation and metabolic-dye dynamics and a 3D free-radical diffusion model. The AMMPER-2 manuscript is under revision at the American Society for Microbiology (preprint).\n\nPython Agent-based modeling\n\n\nCode · Fork\n\n\n\n\nRetrieval-augmented generation system that matches a mentee with Texas Children’s Hospital mentors from a CV or an interest description. Private fork; available on request.\n\nRAG LLMs\n\n\nCode\n\n\n\n\nR package for analyzing gene expression variations in neurological diseases, particularly synaptic dysfunction.\n\nR Genomics\n\n\nCode"
-  },
-  {
-    "objectID": "software.html#more-software",
-    "href": "software.html#more-software",
-    "title": "Software",
-    "section": "More software",
-    "text": "More software\n\n\n\nProject\nDescription\n\n\n\n\nclinval\nValidation harness for clinical LLM extraction: patient-window metrics with clustered confidence intervals, a frozen dev protocol, and error-mechanism analysis.\n\n\nfhirground\nGrounded, validated FHIR R4 extraction from clinical notes: the LLM emits mentions with evidence quotes, deterministic code emits FHIR.\n\n\nehrlint\nLints a clinical prediction task before training: audits finished MEDS/OMOP datasets for the leakage patterns that sink clinical prediction models.\n\n\nclinical-clinpreai-benchmarks\nCompanion code for ClinPreAI.\n\n\nclinical-trofinetide\nCompanion code for the trofinetide / Rett syndrome phenotyping manuscript (under review). Code only; no patient data.\n\n\nclinical-diabetes-t1d-t2d\nPediatric Type 1 / Type 2 diabetes EHR analysis code. Code only; no patient data.\n\n\nMedSDoH\nOHNLP-based social determinants of health extraction; companion to the MedSDoH manuscript.\n\n\nphi-scrubber-evaluation\nEvaluation code for the de-identification benchmark manuscript. Private lab repository; no public mirror."
+    "text": "A few of the places I’ve been lucky enough to visit — drag the map, click a pin to see the photo."
   },
   {
     "objectID": "publications.html",
@@ -49,32 +35,25 @@
     "text": "Preprints\nNeeley, M. B., Botas, J., Jia, J., Yao, L., Palacios, D., et al. (2026). TEDDY: A pediatric foundation model for risk forewarning from ICD-coded diagnostic histories. arXiv. https://doi.org/10.48550/arXiv.2607.14191"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Daniel Palacios",
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software",
     "section": "",
-    "text": "Applied AI Research Scientist\n\n\nDaniel Palacios\n\n\nPh.D. candidate in Quantitative & Computational Biosciences, Baylor College of Medicine · Houston, Texas\n\n\nI build AI systems that turn messy, real-world data into answers people can act on — owning the full pipeline from raw records to validated results.\n\n\nCV Publications GitHub"
+    "text": "Agent-based model of microbial cell populations exposed to ionizing deep-space radiation, developed in the NASA Ames Space Biosciences Division and validated against BioSentinel mission data. Later extended with gamma-radiation and metabolic-dye dynamics and a 3D free-radical diffusion model. The AMMPER-2 manuscript is under revision at the American Society for Microbiology (preprint).\n\nPython Agent-based modeling\n\n\nCode · Fork\n\n\n\n\nRetrieval-augmented generation system that matches a mentee with Texas Children’s Hospital mentors from a CV or an interest description. Private fork; available on request.\n\nRAG LLMs\n\n\nCode\n\n\n\n\nR package for analyzing gene expression variations in neurological diseases, particularly synaptic dysfunction.\n\nR Genomics\n\n\nCode"
   },
   {
-    "objectID": "index.html#about",
-    "href": "index.html#about",
-    "title": "Daniel Palacios",
-    "section": "About",
-    "text": "About\nDaniel Palacios is an applied AI research scientist and PhD candidate in Quantitative & Computational Biosciences at Baylor College of Medicine, advised by Dr. Zhandong Liu in the Liu Lab at the Data Science Center, Texas Children’s Hospital. He builds AI systems that turn messy, real-world data into answers people can act on, owning the full pipeline from raw records to validated results.\nHis research spans four areas:\nClinical outcome prediction. He designs AI agents and LLM systems that predict patient outcomes and explain their reasoning through interpretable reports, with applications in postpartum depression risk and pediatric diabetes complications. These systems are benchmarked against classical machine learning and deep learning models.\nEntity extraction. He uses LLMs, from agentic workflows to hybrid rule-and-model pipelines, to pull structure from clinical text, ranging from treatment-response phenotypes in rare disease research to PHI scrubbing for clinical-note de-identification.\nFoundation models. He trains transformer-based models on electronic health records, including TEDDY, a generative pediatric EHR foundation model trained on data from millions of children.\nEnd-to-end data analysis. He takes raw data to ML-ready through data curation, biomedical statistics (risk factors, odds and hazard ratios, clustering), and large-scale PySpark pipelines over standardized EHR data (OMOP CDM, Epic Clarity) on Palantir Foundry and AWS, so analyses are rigorous before any model is trained.\nDaniel is also an AI Developer and Research Design Intern at Peraton, where he builds LLM and multi-agent software and designs controlled experiments to test how system design choices affect performance and reliability.\nHis path to AI has run through a wide range of scientific fields. As an undergraduate in physics and mathematics at the University of Houston, he modeled gene-regulatory dynamics and cell-fate decisions in bacteriophage lambda at Rice University’s Center for Theoretical Biological Physics, simulated quark-gluon plasma in heavy-ion collisions and validated the results against CERN ALICE data, and developed theory on asymmetric superconductivity that was published in Physical Review B. At NASA Johnson Space Center, he applied NLP to engineering failure reports to build a taxonomy for space-hardware failure analysis, and at NASA Ames Research Center, he built an agent-based model of radiation damage in microbial cells, validated against BioSentinel mission data. Across biophysics, particle physics, condensed matter theory, aerospace engineering, and clinical informatics, he has repeatedly stepped into unfamiliar domains, learned their problems quickly, and delivered validated results, an adaptability that now shapes how he approaches AI research applications.\nAn NSF Graduate Research Fellow and NLM Fellow, Daniel has received Baylor’s Dean’s Award of Excellence and an Outstanding TA Award. He has shared his work through peer-reviewed publications and more than 20 conference presentations."
-  },
-  {
-    "objectID": "index.html#links",
-    "href": "index.html#links",
-    "title": "Daniel Palacios",
-    "section": "Links",
-    "text": "Links\n\nCV (PDF): cv-latest.pdf\nGitHub: DanPalBCM\nLinkedIn: daniel-palacios-506734224\nORCID: 0000-0001-9608-3311\nEmail: Daniel.Palacios@bcm.edu"
-  },
-  {
-    "objectID": "travels.html",
-    "href": "travels.html",
-    "title": "Travels",
+    "objectID": "software.html#featured",
+    "href": "software.html#featured",
+    "title": "Software",
     "section": "",
-    "text": "A few of the places I’ve been lucky enough to visit — drag the map, click a pin to see the photo."
+    "text": "Agent-based model of microbial cell populations exposed to ionizing deep-space radiation, developed in the NASA Ames Space Biosciences Division and validated against BioSentinel mission data. Later extended with gamma-radiation and metabolic-dye dynamics and a 3D free-radical diffusion model. The AMMPER-2 manuscript is under revision at the American Society for Microbiology (preprint).\n\nPython Agent-based modeling\n\n\nCode · Fork\n\n\n\n\nRetrieval-augmented generation system that matches a mentee with Texas Children’s Hospital mentors from a CV or an interest description. Private fork; available on request.\n\nRAG LLMs\n\n\nCode\n\n\n\n\nR package for analyzing gene expression variations in neurological diseases, particularly synaptic dysfunction.\n\nR Genomics\n\n\nCode"
+  },
+  {
+    "objectID": "software.html#more-software",
+    "href": "software.html#more-software",
+    "title": "Software",
+    "section": "More software",
+    "text": "More software\n\n\n\nProject\nDescription\n\n\n\n\nclinval\nValidation harness for clinical LLM extraction: patient-window metrics with clustered confidence intervals, a frozen dev protocol, and error-mechanism analysis. Released on PyPI (v1.0.0, pip install clinval); archived at doi:10.5281/zenodo.24203325.\n\n\nfhirground\nGrounded, validated FHIR R4 extraction from clinical notes: the LLM emits mentions with evidence quotes, deterministic code emits FHIR. Released on PyPI (v1.0.0, pip install fhirground); archived at doi:10.5281/zenodo.24203617.\n\n\nehrlint\nLints a clinical prediction task before training: audits finished MEDS/OMOP datasets for the leakage patterns that sink clinical prediction models. Released on PyPI (v1.0.0, pip install ehrlint); archived at doi:10.5281/zenodo.24203619.\n\n\nclinical-clinpreai-benchmarks\nCompanion code for ClinPreAI.\n\n\nclinical-trofinetide\nCompanion code for the trofinetide / Rett syndrome phenotyping manuscript (under review). Code only; no patient data.\n\n\nclinical-diabetes-t1d-t2d\nPediatric Type 1 / Type 2 diabetes EHR analysis code. Code only; no patient data.\n\n\nMedSDoH\nOHNLP-based social determinants of health extraction; companion to the MedSDoH manuscript.\n\n\nphi-scrubber-evaluation\nEvaluation code for the de-identification benchmark manuscript. Private lab repository; no public mirror."
   },
   {
     "objectID": "career.html",
@@ -96,5 +75,26 @@
     "title": "Career",
     "section": "Experience",
     "text": "Experience\nAI Developer and Research Design Intern — Peraton, Reston, VA (Remote), Aug 2026–present\nGraduate Student Researcher — Baylor College of Medicine / Texas Children’s Hospital, Houston, TX, 2022–present\nResearch Associate — NASA Ames Research Center, Mountain View, CA, May–Aug 2022\nMachine Learning Researcher Intern — NASA Johnson Space Center, Houston, TX, 2021–2022\nUndergraduate Researcher — University of Houston, Houston, TX, 2020–2021"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Daniel Palacios",
+    "section": "",
+    "text": "Applied AI Research Scientist\n\n\nDaniel Palacios\n\n\nPh.D. candidate in Quantitative & Computational Biosciences, Baylor College of Medicine · Houston, Texas\n\n\nI build AI systems that turn messy, real-world data into answers people can act on — owning the full pipeline from raw records to validated results.\n\n\nCV Publications GitHub"
+  },
+  {
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "Daniel Palacios",
+    "section": "About",
+    "text": "About\nDaniel Palacios is an applied AI research scientist and PhD candidate in Quantitative & Computational Biosciences at Baylor College of Medicine, advised by Dr. Zhandong Liu in the Liu Lab at the Data Science Center, Texas Children’s Hospital. He builds AI systems that turn messy, real-world data into answers people can act on, owning the full pipeline from raw records to validated results.\nHis research spans four areas:\nClinical outcome prediction. He designs AI agents and LLM systems that predict patient outcomes and explain their reasoning through interpretable reports, with applications in postpartum depression risk and pediatric diabetes complications. These systems are benchmarked against classical machine learning and deep learning models.\nEntity extraction. He uses LLMs, from agentic workflows to hybrid rule-and-model pipelines, to pull structure from clinical text, ranging from treatment-response phenotypes in rare disease research to PHI scrubbing for clinical-note de-identification.\nFoundation models. He trains transformer-based models on electronic health records, including TEDDY, a generative pediatric EHR foundation model trained on data from millions of children.\nEnd-to-end data analysis. He takes raw data to ML-ready through data curation, biomedical statistics (risk factors, odds and hazard ratios, clustering), and large-scale PySpark pipelines over standardized EHR data (OMOP CDM, Epic Clarity) on Palantir Foundry and AWS, so analyses are rigorous before any model is trained.\nDaniel is also an AI Developer and Research Design Intern at Peraton, where he builds LLM and multi-agent software and designs controlled experiments to test how system design choices affect performance and reliability.\nHis path to AI has run through a wide range of scientific fields. As an undergraduate in physics and mathematics at the University of Houston, he modeled gene-regulatory dynamics and cell-fate decisions in bacteriophage lambda at Rice University’s Center for Theoretical Biological Physics, simulated quark-gluon plasma in heavy-ion collisions and validated the results against CERN ALICE data, and developed theory on asymmetric superconductivity that was published in Physical Review B. At NASA Johnson Space Center, he applied NLP to engineering failure reports to build a taxonomy for space-hardware failure analysis, and at NASA Ames Research Center, he built an agent-based model of radiation damage in microbial cells, validated against BioSentinel mission data. Across biophysics, particle physics, condensed matter theory, aerospace engineering, and clinical informatics, he has repeatedly stepped into unfamiliar domains, learned their problems quickly, and delivered validated results, an adaptability that now shapes how he approaches AI research applications.\nAn NSF Graduate Research Fellow and NLM Fellow, Daniel has received Baylor’s Dean’s Award of Excellence and an Outstanding TA Award. He has shared his work through peer-reviewed publications and more than 20 conference presentations."
+  },
+  {
+    "objectID": "index.html#links",
+    "href": "index.html#links",
+    "title": "Daniel Palacios",
+    "section": "Links",
+    "text": "Links\n\nCV (PDF): cv-latest.pdf\nGitHub: DanPalBCM\nLinkedIn: daniel-palacios-506734224\nORCID: 0000-0001-9608-3311\nEmail: Daniel.Palacios@bcm.edu"
   }
 ]
